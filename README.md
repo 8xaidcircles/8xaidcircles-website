@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 8xaidcircles Website
 
-## Available Scripts
+## 概要
 
-In the project directory, you can run:
+8xaidcirclesの公式ランディングページ（LP）です。  
+React と Tailwind CSS を使用して構築されています。
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 技術スタック
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React (v18)
+- Tailwind CSS
+- Vite (開発ビルドツール)
+- Render（ホスティングサービス）
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 環境構築
 
-### `npm run build`
+### 必須環境
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v16以上推奨)
+- npm または yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 手順
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# リポジトリをクローン
+git clone https://github.com/your-github-user/your-repo-name.git
 
-### `npm run eject`
+# プロジェクトディレクトリへ移動
+cd 8xaidcircles-website
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 依存パッケージをインストール
+npm install
+# または
+yarn install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 開発用サーバーを起動
+npm run dev
+# または
+yarn dev
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ビルド
 
-## Learn More
+本番用ビルドを作成します。
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm run build
+# または
+yarn build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ビルド成果物は `dist/` フォルダに出力されます。
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## デプロイ（Render）
 
-### Analyzing the Bundle Size
+Renderにデプロイする際は、以下の設定を推奨します。
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* **Build Command:** `npm install && npm run build`
+* **Start Command:** `npm run preview`
+* **Publish Directory:** `dist`
 
-### Making a Progressive Web App
+Renderは自動でビルドを行い、公開します。
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 主要スクリプト一覧
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+| コマンド              | 説明           |
+| ----------------- | ------------ |
+| `npm run dev`     | 開発サーバーを起動    |
+| `npm run build`   | 本番ビルドを作成     |
+| `npm run preview` | ビルド成果物のプレビュー |
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## フォルダ構成
 
-### `npm run build` fails to minify
+```
+8XAIDCIRCLES-WEBSITE/
+├── public/
+│   ├── index.html
+│   └── manifest.json
+├── src/
+│   ├── components/
+│   │   ├── Footer.js
+│   │   ├── Header.js
+│   │   └── Layout.js
+│   ├── pages/Home/components/
+│   │   ├── About.js
+│   │   ├── Brand.js
+│   │   └── News.js
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+
+---
+
+## 開発のポイント
+
+- Tailwind CSS のユーティリティクラスでデザインを実装
+- React コンポーネントを小さく分割して再利用性を高める
+- Vite を使用した高速ホットリロード
+
+---
+
+## コントリビュート
+
+プルリクエストやIssueは歓迎します。
+変更の際は必ず動作確認を行ってください。
+
+---
+
+## お問い合わせ
+
+*   Email: [8xaidcircles@gmail.com](mailto:8xaidcircles@gmail.com)
+*   GitHub: [https://github.com/8xaidcircles](https://github.com/8xaidcircles)
+
+```
