@@ -7,33 +7,24 @@ module.exports = {
         'light-blue': '#B0E0E6',
       },
       animation: {
-        'gradient': 'gradient 18s ease-in-out infinite',
-        'gradient-text': 'gradient-text 5s ease infinite',
+        'gradientAnimation': 'gradientAnimation 18s ease-in-out infinite',
+        'AnimationTitle': 'AnimationTitle 5s ease infinite',
       },
       keyframes: {
-        gradient: {
-          '0%, 100%': { backgroundPosition: '0% 0%' },
+        gradientAnimation: {
+          '0%': { backgroundPosition: '0% 0%' },
           '45%': { backgroundPosition: '100% 100%' },
           '55%': { backgroundPosition: '100% 100%' },
+          '100%': { backgroundPosition: '0% 0%' },
         },
-        'gradient-text': {
-          '0%, 100%': { backgroundPosition: '0% 50%' },
+        AnimationTitle: {
+          '0%': { backgroundPosition: '0% 50%' },
           '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
         },
-        'gradient-text': {
-          '0%, 100%': {
-            backgroundPosition: '0% 50%',
-            },
-            '50%': {
-              backgroundPosition: '100% 50%',
-            },
-          },
-        },
-        animation: {
-          'gradient-text': 'gradient-text 5s ease infinite',
-        },
-        backgroundSize: {
-          '200': '200% 200%',
+      },
+      backgroundSize: {
+        '200': '200% 200%',
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

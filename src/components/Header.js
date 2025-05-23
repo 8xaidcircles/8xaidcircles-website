@@ -55,6 +55,11 @@ const Header = () => {
           </div>
         </div>
       </nav>
+
+      {/* Under Construction Notice */}
+      <div className="bg-yellow-100 text-yellow-800 text-sm text-center py-2">
+        ※ 本サイトは構築中です / Under Construction
+      </div>
     </header>
   );
 };

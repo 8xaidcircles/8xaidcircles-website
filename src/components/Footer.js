@@ -40,28 +40,14 @@ const Footer = () => (
       </div>
 
       <div className="flex justify-center md:justify-start space-x-4">
-        <button
-          type="button"
-          disabled
-          aria-label="LinkedIn"
-          className="text-gray-600 hover:text-purple-600 cursor-not-allowed"
-        >
-          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 2L2 12L12 22L22 12L12 2Z" />
-          </svg>
-        </button>
-        <button
-          type="button"
-          disabled
-          aria-label="Pinterest"
-          className="text-gray-600 hover:text-purple-600 cursor-not-allowed"
-        >
-          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 2L2 12L12 22L22 12L12 2Z" />
-          </svg>
-        </button>
+        <p>本サイトは現在一部コンテンツを構築中のため、情報が未整備の箇所やリンク切れが含まれている場合があります。あらかじめご了承ください。
+※ This website is currently under development. Some content or links may be incomplete or unavailable.
+</p>
       </div>
     </div>
+    <p className="text-center text-gray-600 mt-8">
+      &copy;2025 8X Aid Circles
+    </p>
   </footer>
 );
 
