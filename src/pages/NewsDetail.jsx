@@ -46,7 +46,7 @@ export default function NewsDetail() {
       font-['Open_Sans']">
         <section className="min-h-screen flex flex-col justify-center items-center py-32 opacity-0" ref={newsRef}>
           <div className="max-w-4xl mx-auto px-4 py-10 bg-white rounded-2xl shadow-lg">
-            <Helmet>
+           
               <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center mb-8 opacity-0">
                 <span className="
                   bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
@@ -56,7 +56,7 @@ export default function NewsDetail() {
                   News Detail
                 </span>
               </h1>
-            </Helmet>
+       
             <div className="flex flex-col md:flex-row md:items-center md:space-x-8 w-full mb-8">
               <span className="text-lg md:text-xl font-semibold text-[#222] w-32 mb-2 md:mb-0">{news.publishedAt.slice(0, 10).replace(/-/g, ".")}</span>
               <span className="inline-block border border-[#1da1f2] text-[#1da1f2] rounded-full px-6 py-1 text-base font-semibold mr-4 mb-2 md:mb-0 whitespace-nowrap">お知らせ</span>

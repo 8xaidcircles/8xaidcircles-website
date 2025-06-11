@@ -43,7 +43,7 @@ export default function News() {
       <div className="min-h-screen bg-[linear-gradient(135deg,#E6E6FA,#FFD1DC,#FFC0CB,#FAFAD2,#B0E0E6,#ADD8E6,white_85%)] bg-[length:600%_600%] bg-[position:0%_0%] animate-[gradientAnimation_18s_ease-in-out_infinite] font-['Open_Sans']">
         {/* Section 1 */}
         <section className="min-h-screen flex flex-col justify-center items-center w-full px-4">
-          <Helmet>
+      
             <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center opacity-0" ref={titleRef}>
               <span className="
                 bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
@@ -51,7 +51,7 @@ export default function News() {
                 bg-clip-text text-transparent
                 animate-[AnimationTitle_5s_ease_infinite]"> News</span>
             </h1>
-          </Helmet>
+        
         </section>
         {/* Section 2 */}
         <section className="min-h-screen flex flex-col justify-center items-center py-32 opacity-0" ref={newsRef}>

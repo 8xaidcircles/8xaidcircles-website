@@ -57,7 +57,7 @@ const Home = () => {
         ">
           <div className="max-w-7xl mx-auto w-full">
             <div className="text-left">
-            <Helmet>
+           
               <h1 className="
                 text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl
                 font-bold mb-4 md:mb-6
@@ -82,7 +82,7 @@ const Home = () => {
                 Hope Without Limits.
               </span>
             </h1>
-            </Helmet>
+         
             <p ref={subtitleRef} className="
                 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl
               text-gray-700
@@ -104,11 +104,11 @@ const Home = () => {
             <div ref={philosophyTextRef} className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-16 items-start">
               {/* Left side - Philosophy title */}
               <div className="lg:col-span-1">
-                <Helmet>
+          
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#1b1b1b] tracking-wider opacity-0" ref={philosophyTitleRef}>
                   Philosophy
                 </h1>
-                </Helmet>
+           
               </div>
               
               {/* Right side - Animated text content */}
@@ -173,7 +173,7 @@ const Home = () => {
         <section className="flex flex-col justify-center items-center pt-8 md:pt-10 pb-32 md:pb-48">
           <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-8">
-              <Helmet>
+        
               <h2
                 ref={aboutTitleRef}
                 className="
@@ -193,7 +193,7 @@ const Home = () => {
                 8X Aid Circles
                 </span>
               </h2>
-              </Helmet>
+      
               <p
                 ref={aboutSubtitleRef}
                 className="
@@ -214,11 +214,11 @@ const Home = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             {/* Servicesタイトルを中央に配置 */}
             <div className="w-full flex justify-center mb-12">
-              <Helmet>
+ 
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#1b1b1b] tracking-wider text-center opacity-0" ref={serviceTitleRef}>
                   Services
                 </h1>
-              </Helmet>
+    
             </div>
             {/* 2カラムで横並びのグラデーションボーダーカード */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 w-full justify-center">

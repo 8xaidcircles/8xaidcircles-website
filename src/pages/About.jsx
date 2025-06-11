@@ -42,7 +42,7 @@ const About = () => {
         {/* Section 1 */}
         <section className="relative min-h-screen flex items-center justify-center">
           <div className="max-w-6xl mx-auto px-4 w-full flex flex-col justify-center items-center">
-            <Helmet>
+            
               <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center opacity-0" ref={titleRef}>
                 <span className="
                 bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)] 
@@ -50,7 +50,7 @@ const About = () => {
                 bg-clip-text text-transparent 
                 animate-[AnimationTitle_5s_ease_infinite]"> Philosophy</span>
               </h1>
-            </Helmet>
+       
           </div>
         </section>
 

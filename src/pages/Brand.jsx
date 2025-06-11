@@ -36,7 +36,7 @@ const Brand = () => {
         {/* Hero Section */}
         <section className="relative min-h-screen flex items-center justify-center">
           <div className="max-w-6xl mx-auto px-4 w-full flex flex-col justify-center items-center">
-            <Helmet>
+       
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-8 md:mb-12 text-center leading-tight opacity-0" ref={titleRef}>
                 <span className="
                   bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
@@ -46,7 +46,7 @@ const Brand = () => {
                   8X Aid Circles
                 </span>
               </h1>
-            </Helmet>
+        
             <p className="text-xl sm:text-2xl md:text-3xl text-gray-700 mb-10 max-w-3xl mx-auto text-center opacity-0" ref={titleRef2}>
               <span className="
                 bg-clip-text text-transparent 
