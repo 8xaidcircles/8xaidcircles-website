@@ -33,7 +33,7 @@ const Brand = () => {
         animate-[gradientAnimation_18s_ease-in-out_infinite] 
         font-['Open_Sans'] min-h-screen">
 
-        {/* Hero Section */}
+        {/* Section 1 */}
         <section className="relative min-h-screen flex items-center justify-center">
           <div className="max-w-6xl mx-auto px-4 w-full flex flex-col justify-center items-center">
        
@@ -62,14 +62,29 @@ const Brand = () => {
               <button className="rounded-full px-8 py-4 bg-white text-purple-600 hover:bg-purple-50 transition-colors text-lg font-medium shadow-lg hover:shadow-xl">
                 Coming Soon
               </button>
-              <button className="rounded-full px-8 py-4 bg-purple-600 text-white hover:bg-purple-700 transition-colors text-lg font-medium shadow-lg hover:shadow-xl">
-                Learn More
-              </button>
             </div>
           </div>
         </section>
 
-        {/* Brand Statement Section */}
+        {/* Section 2 */}
+        <section className="py-32">
+          <div className="max-w-5xl mx-auto px-4 flex flex-col justify-center items-center">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-8 md:mb-12 text-center leading-relaxed opacity-0 whitespace-nowrap" ref={titleRef3}>
+              <span className="
+                bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
+                bg-[length:200%_100%]
+                bg-clip-text text-transparent
+                animate-[AnimationTitle_5s_ease_infinite]">
+                Code the life, make the future sparkle.
+              </span>
+            </h2>
+            <p className="text-xl sm:text-2xl md:text-3xl font-bold mb-12 text-center opacity-0" ref={titleRef4}>
+              ― 人生に、新しい光を。
+            </p>
+          </div>
+        </section>
+
+        {/* Section 3 */}
         <section className="py-32">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-16 opacity-0" ref={brandTitleRef}>
@@ -128,61 +143,6 @@ const Brand = () => {
           </div>
         </section>
 
-        {/* Brand Values Section */}
-        <section className="py-32 bg-white/50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-16 opacity-0" ref={valueTitleRef}>
-              <span className="
-                bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
-                bg-[length:200%_100%]
-                bg-clip-text text-transparent
-                animate-[AnimationTitle_5s_ease_infinite]">
-                Brand Values
-              </span>
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 opacity-0" ref={valueContentRef}>
-              <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-purple-600">創造性</h3>
-                <p className="text-lg text-gray-700">
-                  新しい価値を創造し、社会に貢献する
-                </p>
-              </div>
-              <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-purple-600">持続可能性</h3>
-                <p className="text-lg text-gray-700">
-                  長期的な視点で社会課題の解決に取り組む
-                </p>
-              </div>
-              <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-purple-600">共感力</h3>
-                <p className="text-lg text-gray-700">
-                  多様な価値観を理解し、共に歩む
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Call to Action Section */}
-        <section className="py-32">
-          <div className="max-w-4xl mx-auto px-4 text-center">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 opacity-0" ref={titleRef3}>
-              <span className="
-                bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
-                bg-[length:200%_100%]
-                bg-clip-text text-transparent
-                animate-[AnimationTitle_5s_ease_infinite]">
-                Code the life, make the future sparkle.
-              </span>
-            </h2>
-            <p className="text-xl sm:text-2xl md:text-3xl font-bold mb-12 opacity-0" ref={titleRef4}>
-              ― 人生に、新しい光を。
-            </p>
-            <button className="rounded-full px-8 py-4 bg-purple-600 text-white hover:bg-purple-700 transition-colors text-lg font-medium shadow-lg hover:shadow-xl">
-              Join Our Mission
-            </button>
-          </div>
-        </section>
       </div>
     </Layout>
   );
