@@ -38,12 +38,18 @@ const About = () => {
       bg-[length:600%_600%] bg-[position:0%_0%] 
       animate-[gradientAnimation_18s_ease-in-out_infinite] 
       font-['Open_Sans'] min-h-screen">
-
+                        
         {/* Section 1 */}
         <section className="relative min-h-screen flex items-center justify-center">
           <div className="max-w-6xl mx-auto px-4 w-full flex flex-col justify-center items-center">
             
-              <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center opacity-0" ref={titleRef}>
+          <h1 className="
+                text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
+                font-bold mb-4 md:mb-6
+              text-gray-800
+              leading-tight
+              opacity-0
+              " ref={titleRef}>
                 <span className="
                 bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)] 
                 bg-[length:200%_100%] 
@@ -58,7 +64,7 @@ const About = () => {
         <section className="min-h-screen flex flex-col justify-center items-center py-32">
           <div className="max-w-5xl w-full px-4">
             <div className="flex items-center mb-4">
-              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold tracking-wider mr-4 opacity-0" ref={titleRef2}>
+              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold tracking-wider mr-4 opacity-0" ref={titleRef2}>
               <span className="
               bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)] 
               bg-[length:200%_100%] 
@@ -66,11 +72,11 @@ const About = () => {
               animate-[AnimationTitle_5s_ease_infinite]">Mission</span>
               </h2>
             </div>
-            <h3 className="mt-10 mb-16 text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef}>
+            <h3 className="mt-8 mb-12 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef}>
               命のもとの平等を<br />社会の仕組みに
             </h3>
             <div className="flex-1 text-left">
-              <div className="text-lg sm:text-xl md:text-1xl lg:text-2xl xl:text-3xl leading-relaxed text-[#1b1b1b] opacity-0" ref={textRef1}>
+              <div className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-[#1b1b1b] opacity-0" ref={textRef1}>
                 <p className="mb-2">
                  境遇に関わらず誰もが可能性を持ち
                 </p>
@@ -92,7 +98,7 @@ const About = () => {
         <section className="min-h-screen flex flex-col justify-center items-center py-32">
           <div className="max-w-5xl w-full px-4">
             <div className="flex items-center mb-4">
-              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold tracking-wider mr-4 opacity-0" ref={titleRef3}>
+              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold tracking-wider mr-4 opacity-0" ref={titleRef3}>
               <span className="
               bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)] 
               bg-[length:200%_100%] 
@@ -101,10 +107,10 @@ const About = () => {
               </h2>
             </div>
             <div className="flex-1 text-left">
-              <h3 className="mt-10 mb-16 text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef2}>
+              <h3 className="mt-8 mb-12 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef2}>
                 Aid without border, <br />Hope without limits.
               </h3>
-              <div className="text-lg sm:text-xl md:text-1xl lg:text-2xl xl:text-3xl leading-relaxed text-[#1b1b1b] opacity-0" ref={textRef2}>
+              <div className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-[#1b1b1b] opacity-0" ref={textRef2}>
                 <p className="mb-2">
                     命の価値に境界線を引かない世界
                 </p>
@@ -129,7 +135,7 @@ const About = () => {
         <section className="min-h-screen flex flex-col justify-center items-center py-32">
           <div className="max-w-5xl w-full px-4">
             <div className="flex items-center mb-4">
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold tracking-wider mr-4 opacity-0" ref={titleRef4}>
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold tracking-wider mr-4 opacity-0" ref={titleRef4}>
               <span className="
               bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)] 
               bg-[length:200%_100%] 
@@ -139,37 +145,37 @@ const About = () => {
             </div>
             <div className="flex-1 text-left">
               <div className="mb-8">
-                <h3 className="mt-10 mb-4 text-xl md:text-3xl lg:text-4xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef3}>
+                <h3 className="mt-8 mb-4 text-lg sm:text-xl md:text-2xl lg:text-3xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef3}>
                   命のもとの平等
                 </h3>
-                <div className="text-lg sm:text-xl md:text-1xl lg:text-2xl xl:text-3xl leading-relaxed text-[#1b1b1b] opacity-0" ref={textRef3}>
+                <div className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-[#1b1b1b] opacity-0" ref={textRef3}>
                   命の価値は等しく誰しもが尊厳を持つ存在である
                 </div>
               </div>
 
               <div className="mb-8">
-                <h3 className="mt-10 mb-4 text-xl md:text-3xl lg:text-4xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef5}>
+                <h3 className="mt-8 mb-4 text-lg sm:text-xl md:text-2xl lg:text-3xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef5}>
                   循環する支援
                 </h3>
-                <div className="text-lg sm:text-xl md:text-1xl lg:text-2xl xl:text-3xl leading-relaxed text-[#1b1b1b] opacity-0" ref={textRef5}>
+                <div className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-[#1b1b1b] opacity-0" ref={textRef5}>
                   支援が一過性で終わらないよう事業と支援を両立させる持続可能な仕組みを追求する
                 </div>
               </div>
 
               <div className="mb-8">
-                  <h3 className="mt-10 mb-4 text-xl md:text-3xl lg:text-4xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef6}>
+                  <h3 className="mt-8 mb-4 text-lg sm:text-xl md:text-2xl lg:text-3xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef6}>
                   テクノロジーと善意の融合
                 </h3>
-                <div className="text-lg sm:text-xl md:text-1xl lg:text-2xl xl:text-3xl leading-relaxed text-[#1b1b1b] opacity-0" ref={textRef6}>
+                <div className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-[#1b1b1b] opacity-0" ref={textRef6}>
                   テクノロジーを活用し善意の力を拡張する新しい形の社会的支援を実現する
                 </div>
               </div>
 
               <div className="mb-8">
-                <h3 className="mt-10 mb-4 text-xl md:text-3xl lg:text-4xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef7}>
+                <h3 className="mt-8 mb-4 text-lg sm:text-xl md:text-2xl lg:text-3xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef7}>
                   枠を越えた挑戦
                 </h3>
-                <div className="text-lg sm:text-xl md:text-1xl lg:text-2xl xl:text-3xl leading-relaxed text-[#1b1b1b] opacity-0" ref={textRef7}>
+                <div className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-[#1b1b1b] opacity-0" ref={textRef7}>
                   国境/立場を越え「Aid without border, Hope without limits.」の精神で行動する
                 </div>
               </div>
