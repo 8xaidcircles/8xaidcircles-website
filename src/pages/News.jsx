@@ -56,11 +56,11 @@ export default function News() {
       
             <h1
               className="
-                text-base
-                sm:text-4xl
-                md:text-5xl
-                lg:text-6xl
-                xl:text-7xl
+                text-4xl
+                sm:text-5xl
+                md:text-6xl
+                lg:text-7xl
+                xl:text-8xl
                 font-bold
                 text-center
                 opacity-0

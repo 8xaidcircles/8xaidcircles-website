@@ -43,11 +43,11 @@ const Brand = () => {
        
           <h1
             className="
-              text-xl
-              sm:text-4xl
-              md:text-5xl
-              lg:text-6xl
-              xl:text-7xl
+              text-4xl 
+              sm:text-5xl
+              md:text-6xl
+              lg:text-7xl
+              xl:text-8xl
               font-bold
               mb-4 md:mb-6
               text-gray-800
@@ -87,7 +87,7 @@ const Brand = () => {
               </span>
               <br />
               <span className="
-                text-base
+                text-sm
                 sm:text-base
                 md:text-lg
               ">
@@ -104,7 +104,7 @@ const Brand = () => {
                   text-purple-600
                   hover:bg-purple-50
                   transition-colors
-                  text-base
+                  text-sm
                   sm:text-base
                   md:text-lg
                   font-medium
@@ -127,10 +127,11 @@ const Brand = () => {
           <div className="w-full px-4 flex flex-col justify-center items-center">
             <h2
               className="
-                text-xs
-                sm:text-base
-                md:text-5xl
-                lg:text-6xl
+                text-xl
+                sm:text-2xl
+                md:text-3xl
+                lg:text-4xl
+                xl:text-5xl
                 font-bold
                 mb-6 md:mb-8
                 text-center
@@ -144,15 +145,25 @@ const Brand = () => {
                 bg-[length:200%_100%]
                 bg-clip-text text-transparent
                 animate-[AnimationTitle_5s_ease_infinite]
+                break-words
                 "
               >
-                Code the life, make the future sparkle.
+                Code the life,
+                <span className="
+                  block md:inline
+                  bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
+                  bg-[length:200%_100%]
+                  bg-clip-text text-transparent
+                  animate-[AnimationTitle_5s_ease_infinite]
+                ">
+                  make the future sparkle.
+                </span>
               </span>
             </h2>
             <p
               className="
                 text-base
-                sm:text-base
+                sm:text-lg
                 md:text-xl
                 lg:text-2xl
                 font-bold
@@ -173,10 +184,11 @@ const Brand = () => {
           <div className="w-full max-w-6xl mx-auto">
             <h2
               className="
-                text-base
+                text-2xl
                 sm:text-3xl
                 md:text-4xl
                 lg:text-5xl
+                xl:text-6xl 
                 font-bold
                 text-center
                 mb-12
@@ -192,47 +204,48 @@ const Brand = () => {
                 Brand Statement
               </span>
             </h2>
-            <div className="max-w-3xl mx-auto flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
-              <div className="w-full max-w-3xl mx-auto" ref={brandTextRef}>
+            <div className="max-w-6xl mx-auto flex flex-col w-full px-4 lg:flex-row items-center gap-8 lg:gap-16">
+              <div className="w-full max-w-6xl mx-auto" ref={brandTextRef}>
                 <div
                   className="
-                    text-xs
-                    sm:text-lg
+                    text-sm  
+                    sm:text-base
                     md:text-xl
                     lg:text-2xl
+                    xl:text-3xl 
                     leading-relaxed
                     text-[#1b1b1b]
                   "
                 >
-                  <div className="mb-4 whitespace-nowrap">
+                  <div className="mb-2">
                     <AnimatedText 
                       text="8X Aid Circlesソーシャルブランドは" 
                       isVisible={brandTextVisible}
                       delay={0}
                     />
                   </div>
-                  <div className="mb-4 whitespace-nowrap">
+                  <div className="mb-2">
                     <AnimatedText 
                       text="支援 × 創造 × 発信の力で" 
                       isVisible={brandTextVisible}
                       delay={800}
                     />
                   </div>
-                  <div className="mb-4 whitespace-nowrap">
+                  <div className="mb-2">
                     <AnimatedText 
                       text="人々の人生に新たな物語を描きます" 
                       isVisible={brandTextVisible}
                       delay={1600}
                     />
                   </div>
-                  <div className="mb-4 whitespace-nowrap">
+                  <div className="mb-2">
                     <AnimatedText 
                       text="表現を通じて支援の価値を届ける" 
                       isVisible={brandTextVisible}
                       delay={2400}
                     />
                   </div>
-                  <div className="mb-4 whitespace-nowrap">
+                  <div className="mb-2">
                     <AnimatedText 
                       text="それが8X Aid Circlesソーシャルブランドの使命です" 
                       isVisible={brandTextVisible}

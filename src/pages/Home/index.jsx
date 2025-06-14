@@ -60,8 +60,8 @@ const Home = () => {
            
               <h1
                 className="
-                  text-xl
-                  sm:text-5xl
+                  text-3xl
+                  sm:text-4xl
                   md:text-6xl
                   lg:text-7xl
                   xl:text-8xl
@@ -77,8 +77,8 @@ const Home = () => {
               </h1>
               <h1
                 className="
-                  text-xl
-                  sm:text-5xl
+                  text-3xl
+                  sm:text-4xl
                   md:text-6xl
                   lg:text-7xl
                   xl:text-8xl
@@ -103,7 +103,7 @@ const Home = () => {
               ref={subtitleRef}
               className="
                 text-base
-                sm:text-xl
+                sm:text-lg
                 md:text-lg
                 lg:text-xl
                 xl:text-2xl
@@ -121,7 +121,10 @@ const Home = () => {
         </section>
 
         {/* <Section 2> */}
-        <section className="min-h-screen flex flex-col justify-center items-center pt-16 md:pt-20 pb-8 md:pb-10">
+        <section className="
+        min-h-screen flex flex-col justify-center w-full px-4 pt-16 md:pt-20 pb-8 md:pb-10
+        font-['Open_Sans']
+        ">
           <div className="w-full max-w-4xl mx-auto">
             <div ref={philosophyTextRef} className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-16 items-start">
               {/* Left side - Philosophy title */}
@@ -129,9 +132,9 @@ const Home = () => {
           
                 <h2
                   className="
-                    text-base
-                    sm:text-xl
-                    md:text-2xl
+                    text-2xl
+                    sm:text-3xl
+                    md:text-4xl
                     lg:text-5xl
                     font-bold
                     text-[#1b1b1b] 
@@ -147,53 +150,53 @@ const Home = () => {
               
               {/* Right side - Animated text content */}
               <div className="lg:col-span-2">
-                <h2 className="text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl 
+                <h2 className="text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl 
                 leading-relaxed 
                 text-[#1b1b1b]"
                 >
-                  <div className="mb-2 whitespace-nowrap">
+                  <div className="mb-2">
                     <AnimatedText 
                       text="「命のもとの平等」という理念のもと" 
                       isVisible={philosophyTextVisible}
                       delay={0}
                     />
                   </div>
-                  <div className="mb-2 whitespace-nowrap">
+                  <div className="mb-2">
                     <AnimatedText 
                       text="「助け合いの輪（Aid Circles）」を創出し" 
                       isVisible={philosophyTextVisible}
                       delay={800}
                     />
                   </div>
-                  <div className="mb-2 whitespace-nowrap">
+                  <div className="mb-2">
                     <AnimatedText 
                       text="テクノロジーとソーシャルグッドの融合によって" 
                       isVisible={philosophyTextVisible}
                       delay={1600}
                     />
                   </div>
-                  <div className="mb-4 whitespace-nowrap">
+                  <div className="mb-2">
                     <AnimatedText 
                       text="すべての人々に希望ある未来を届けること" 
                       isVisible={philosophyTextVisible}
                       delay={2400}
                     />
                   </div>
-                  <div className="mb-2 whitespace-nowrap">
+                  <div className="mb-2">
                     <AnimatedText 
                       text="どんな立場にあっても、未来を切り拓く力は誰にでもある" 
                       isVisible={philosophyTextVisible}
                       delay={3200}
                     />
                   </div>
-                  <div className="mb-2 whitespace-nowrap">
+                  <div className="mb-2">
                     <AnimatedText 
                       text="どんな状況でも、人生は書き換えることができる——" 
                       isVisible={philosophyTextVisible}
                       delay={4000}
                     />
                   </div>
-                  <div className="whitespace-nowrap">
+                  <div className="mb-2">
                     <AnimatedText 
                       text="これが8X Aid Circlesの信念であり、目指す社会の姿です" 
                       isVisible={philosophyTextVisible}
@@ -214,7 +217,7 @@ const Home = () => {
               <h2
                 ref={aboutTitleRef}
                 className="
-                  text-base
+                  text-3xl
                   sm:text-4xl
                   md:text-5xl
                   lg:text-6xl
@@ -264,9 +267,9 @@ const Home = () => {
  
                 <h2
                   className="
-                    text-base
-                    sm:text-xl
-                    md:text-2xl
+                    text-2xl
+                    sm:text-3xl
+                    md:text-4xl
                     lg:text-5xl
                     font-bold
                     text-[#1b1b1b]
