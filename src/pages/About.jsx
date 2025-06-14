@@ -41,10 +41,10 @@ const About = () => {
                         
         {/* Section 1 */}
         <section className="relative min-h-screen flex items-center justify-center">
-          <div className="w-full px-4 flex flex-col justify-center items-center">
+          <div className="w-full max-w-6xl mx-auto px-4 flex flex-col justify-center items-center">
             
           <h1 className="
-              text-xs sm:text-base md:text-3xl lg:text-4xl xl:text-7xl
+              text-base sm:text-2xl md:text-3xl lg:text-4xl xl:text-7xl
               font-bold mb-4 md:mb-6
               text-gray-800
               leading-tight
@@ -62,7 +62,7 @@ const About = () => {
 
         {/* Section 2 */}
         <section className="min-h-screen flex flex-col justify-center items-center py-32">
-          <div className="w-full max-w-4xl mx-auto">
+          <div className="w-full max-w-3xl mx-auto">
             <div className="flex items-center mb-4">
               <h2 className="
               text-xs sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 
@@ -101,7 +101,7 @@ const About = () => {
 
         {/* Section 3 */}
         <section className="min-h-screen flex flex-col justify-center items-center py-32">
-          <div className="w-full max-w-4xl mx-auto">
+          <div className="w-full max-w-3xl mx-auto">
             <div className="flex items-center mb-4">
               <h2 className="text-xs sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold tracking-wider mr-4 opacity-0" ref={titleRef3}>
               <span className="
@@ -138,7 +138,7 @@ const About = () => {
 
         {/* Section 4 */}
         <section className="min-h-screen flex flex-col justify-center items-center py-32">
-          <div className="w-full max-w-4xl mx-auto">
+          <div className="w-full max-w-3xl mx-auto">
             <div className="flex items-center mb-4">
             <h2 className="text-xs sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold tracking-wider mr-4 opacity-0" ref={titleRef4}>
               <span className="

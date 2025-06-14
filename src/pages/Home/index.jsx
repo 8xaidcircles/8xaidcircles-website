@@ -60,7 +60,7 @@ const Home = () => {
            
               <h1
                 className="
-                  text-xs
+                  text-xl
                   sm:text-5xl
                   md:text-6xl
                   lg:text-7xl
@@ -77,7 +77,7 @@ const Home = () => {
               </h1>
               <h1
                 className="
-                  text-xs
+                  text-xl
                   sm:text-5xl
                   md:text-6xl
                   lg:text-7xl
@@ -102,8 +102,8 @@ const Home = () => {
             <p
               ref={subtitleRef}
               className="
-                text-xs
-                sm:text-base
+                text-base
+                sm:text-xl
                 md:text-lg
                 lg:text-xl
                 xl:text-2xl
@@ -129,7 +129,7 @@ const Home = () => {
           
                 <h2
                   className="
-                    text-xs
+                    text-base
                     sm:text-xl
                     md:text-2xl
                     lg:text-5xl
@@ -214,7 +214,7 @@ const Home = () => {
               <h2
                 ref={aboutTitleRef}
                 className="
-                  text-xs
+                  text-base
                   sm:text-4xl
                   md:text-5xl
                   lg:text-6xl
@@ -239,7 +239,7 @@ const Home = () => {
               <p
                 ref={aboutSubtitleRef}
                 className="
-                  text-xs
+                  text-base
                   sm:text-2xl
                   md:text-3xl
                   lg:text-4xl
@@ -264,7 +264,7 @@ const Home = () => {
  
                 <h2
                   className="
-                    text-xs
+                    text-base
                     sm:text-xl
                     md:text-2xl
                     lg:text-5xl
@@ -286,7 +286,7 @@ const Home = () => {
               <div className="bg-white rounded-2xl p-8 md:p-10 w-full border-2 opacity-0" style={{borderImage: 'linear-gradient(90deg, #43e97b 0%, #38f9d7 50%, #fa8bff 100%) 1'}} ref={technologyRef}>
                 <h2
                   className="
-                    text-xs
+                    text-base
                     md:text-2xl
                     font-bold
                     text-[#1b1b1b]
@@ -295,7 +295,7 @@ const Home = () => {
                 >テクノロジー事業</h2>
                 <p
                   className="
-                    text-xs
+                    text-base
                     md:text-lg
                     text-gray-700
                   "
@@ -307,7 +307,7 @@ const Home = () => {
               <div className="bg-white rounded-2xl p-8 md:p-10 w-full border-2 opacity-0" style={{borderImage: 'linear-gradient(90deg, #43e97b 0%, #38f9d7 50%, #fa8bff 100%) 1'}} ref={brandRef}>
                 <h2
                   className="
-                    text-xs
+                    text-base
                     md:text-2xl
                     font-bold
                     text-[#1b1b1b]
@@ -316,7 +316,7 @@ const Home = () => {
                 >ブランド事業</h2>
                 <p
                   className="
-                    text-xs
+                    text-base
                     md:text-lg
                     text-gray-700
                   "

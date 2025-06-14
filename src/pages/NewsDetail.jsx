@@ -49,7 +49,7 @@ export default function NewsDetail() {
            
               <h1
                 className="
-                  text-xs
+                  text-base
                   sm:text-2xl
                   md:text-3xl
                   lg:text-4xl
@@ -71,8 +71,8 @@ export default function NewsDetail() {
             <div className="flex flex-col md:flex-row md:items-center md:space-x-4 lg:space-x-8 w-full mb-6 sm:mb-8">
               <span
                 className="
-                  text-xs
-                  sm:text-base
+                  text-base
+                  sm:text-xl
                   md:text-lg
                   font-semibold
                   text-[#222]
@@ -95,7 +95,7 @@ export default function NewsDetail() {
                   sm:px-4
                   md:px-6
                   py-1
-                  text-xs
+                  text-base
                   sm:text-base
                   font-semibold
                   mr-2
@@ -110,7 +110,7 @@ export default function NewsDetail() {
             </div>
             <h2
               className="
-                text-xs
+                text-base
                 sm:text-xl
                 md:text-2xl
                 font-bold
@@ -123,7 +123,7 @@ export default function NewsDetail() {
             <div
               className="
                 text-gray-700
-                text-xs
+                text-base
                 sm:text-base
                 md:text-lg
               "
@@ -143,7 +143,7 @@ export default function NewsDetail() {
                 rounded-full
                 hover:bg-[#1a8cd8]
                 transition-colors
-                text-xs
+                text-base
                 sm:text-base
               "
             >

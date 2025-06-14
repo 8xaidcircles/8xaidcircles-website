@@ -43,7 +43,7 @@ const Brand = () => {
        
           <h1
             className="
-              text-xs
+              text-xl
               sm:text-4xl
               md:text-5xl
               lg:text-6xl
@@ -67,7 +67,7 @@ const Brand = () => {
         
             <p
               className="
-                text-xs
+                text-base
                 sm:text-lg
                 md:text-xl
                 lg:text-2xl
@@ -87,7 +87,7 @@ const Brand = () => {
               </span>
               <br />
               <span className="
-                text-xs
+                text-base
                 sm:text-base
                 md:text-lg
               ">
@@ -104,7 +104,7 @@ const Brand = () => {
                   text-purple-600
                   hover:bg-purple-50
                   transition-colors
-                  text-xs
+                  text-base
                   sm:text-base
                   md:text-lg
                   font-medium
@@ -151,7 +151,7 @@ const Brand = () => {
             </h2>
             <p
               className="
-                text-xs
+                text-base
                 sm:text-base
                 md:text-xl
                 lg:text-2xl
@@ -170,10 +170,10 @@ const Brand = () => {
 
         {/* Section 3 */}
         <section className="py-32">
-          <div className="w-full max-w-4xl mx-auto">
+          <div className="w-full max-w-6xl mx-auto">
             <h2
               className="
-                text-xs
+                text-base
                 sm:text-3xl
                 md:text-4xl
                 lg:text-5xl
@@ -192,8 +192,8 @@ const Brand = () => {
                 Brand Statement
               </span>
             </h2>
-            <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
-              <div className="w-full max-w-4xl mx-auto" ref={brandTextRef}>
+            <div className="max-w-3xl mx-auto flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
+              <div className="w-full max-w-3xl mx-auto" ref={brandTextRef}>
                 <div
                   className="
                     text-xs
@@ -245,7 +245,14 @@ const Brand = () => {
                 <img 
                   src={Logo} 
                   alt="8X Aid Circles Logo" 
-                  className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-contain" 
+                  className="
+                    w-24 h-24
+                    sm:w-32 sm:h-32
+                    md:w-40 md:h-40
+                    lg:w-56 lg:h-56
+                    xl:w-72 xl:h-72
+                    object-contain
+                  "
                 />
               </div>
             </div>

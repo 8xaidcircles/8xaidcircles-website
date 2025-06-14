@@ -56,7 +56,7 @@ export default function News() {
       
             <h1
               className="
-                text-xs
+                text-base
                 sm:text-4xl
                 md:text-5xl
                 lg:text-6xl
@@ -81,7 +81,7 @@ export default function News() {
             {loading && (
               <p
                 className="
-                  text-xs
+                  text-base
                   sm:text-base
                   text-center
                   text-gray-500
@@ -93,7 +93,7 @@ export default function News() {
             {error && (
               <p
                 className="
-                  text-xs
+                  text-base
                   sm:text-base
                   text-center
                   text-red-500
@@ -112,7 +112,7 @@ export default function News() {
                   <div className="flex flex-col md:flex-row md:items-center md:space-x-4 lg:space-x-8 w-full">
                     <span
                       className="
-                        text-xs
+                        text-base
                         sm:text-base
                         md:text-lg
                         font-semibold
@@ -136,7 +136,7 @@ export default function News() {
                         sm:px-4
                         md:px-6
                         py-1
-                        text-xs
+                        text-base
                         sm:text-base
                         font-semibold
                         mr-2
@@ -150,7 +150,7 @@ export default function News() {
                     </span>
                     <span
                       className="
-                        text-xs
+                        text-base
                         sm:text-base
                         md:text-lg
                         text-[#222]
