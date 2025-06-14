@@ -132,7 +132,7 @@ const Home = () => {
                     text-xs
                     sm:text-xl
                     md:text-2xl
-                    lg:text-3xl
+                    lg:text-5xl
                     font-bold
                     text-[#1b1b1b] 
                     tracking-wider 
@@ -267,7 +267,7 @@ const Home = () => {
                     text-xs
                     sm:text-xl
                     md:text-2xl
-                    lg:text-3xl
+                    lg:text-5xl
                     font-bold
                     text-[#1b1b1b]
                     tracking-wider
