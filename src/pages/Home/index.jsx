@@ -125,7 +125,7 @@ const Home = () => {
         min-h-screen flex flex-col justify-center w-full px-4 pt-16 md:pt-20 pb-8 md:pb-10
         font-['Open_Sans']
         ">
-          <div className="w-full max-w-4xl mx-auto">
+          <div className="w-full max-w-7xl mx-auto">
             <div ref={philosophyTextRef} className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-16 items-start">
               {/* Left side - Philosophy title */}
               <div className="lg:col-span-1">
