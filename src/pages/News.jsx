@@ -54,7 +54,19 @@ export default function News() {
         {/* Section 1 */}
         <section className="min-h-screen flex flex-col justify-center items-center w-full px-4">
       
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center opacity-0" ref={titleRef}>
+            <h1
+              className="
+                text-xs
+                sm:text-4xl
+                md:text-5xl
+                lg:text-6xl
+                xl:text-7xl
+                font-bold
+                text-center
+                opacity-0
+              "
+              ref={titleRef}
+            >
               <span className="
                 bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
                 bg-[length:200%_100%]
@@ -65,9 +77,31 @@ export default function News() {
         </section>
         {/* Section 2 */}
         <section className="min-h-screen flex flex-col justify-center items-center py-16 sm:py-24 md:py-32 opacity-0" ref={newsRef}>
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 md:py-10">
-            {loading && <p className="text-center text-gray-500 text-sm sm:text-base">読み込み中...</p>}
-            {error && <p className="text-center text-red-500 text-sm sm:text-base">{error}</p>}
+          <div className="w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 md:py-10">
+            {loading && (
+              <p
+                className="
+                  text-xs
+                  sm:text-base
+                  text-center
+                  text-gray-500
+                "
+              >
+                読み込み中...
+              </p>
+            )}
+            {error && (
+              <p
+                className="
+                  text-xs
+                  sm:text-base
+                  text-center
+                  text-red-500
+                "
+              >
+                {error}
+              </p>
+            )}
             <ul className="space-y-4 sm:space-y-6 md:space-y-8">
               {news.map((item) => (
                 <li
@@ -76,9 +110,56 @@ export default function News() {
                   onClick={() => handleClick(item.id)}
                 >
                   <div className="flex flex-col md:flex-row md:items-center md:space-x-4 lg:space-x-8 w-full">
-                    <span className="text-base sm:text-lg md:text-xl font-semibold text-[#222] w-24 sm:w-32 mb-2 md:mb-0">{item.publishedAt.slice(0, 10).replace(/-/g, ".")}</span>
-                    <span className="inline-block border border-[#1da1f2] text-[#1da1f2] rounded-full px-3 sm:px-4 md:px-6 py-1 text-sm sm:text-base font-semibold mr-2 sm:mr-4 mb-2 md:mb-0 whitespace-nowrap">お知らせ</span>
-                    <span className="text-base sm:text-lg md:text-xl text-[#222] font-medium flex-1">{item.title}</span>
+                    <span
+                      className="
+                        text-xs
+                        sm:text-base
+                        md:text-lg
+                        font-semibold
+                        text-[#222]
+                        w-24
+                        sm:w-32
+                        mb-2
+                        md:mb-0
+                      "
+                    >
+                      {item.publishedAt.slice(0, 10).replace(/-/g, ".")}
+                    </span>
+                    <span
+                      className="
+                        inline-block
+                        border
+                        border-[#1da1f2]
+                        text-[#1da1f2]
+                        rounded-full
+                        px-3
+                        sm:px-4
+                        md:px-6
+                        py-1
+                        text-xs
+                        sm:text-base
+                        font-semibold
+                        mr-2
+                        sm:mr-4
+                        mb-2
+                        md:mb-0
+                        whitespace-nowrap
+                      "
+                    >
+                      お知らせ
+                    </span>
+                    <span
+                      className="
+                        text-xs
+                        sm:text-base
+                        md:text-lg
+                        text-[#222]
+                        font-medium
+                        flex-1
+                      "
+                    >
+                      {item.title}
+                    </span>
                   </div>
                 </li>
               ))}

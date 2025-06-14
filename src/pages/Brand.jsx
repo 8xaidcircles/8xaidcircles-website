@@ -37,16 +37,25 @@ const Brand = () => {
         <section className="
           min-h-screen
           flex flex-col justify-center
-          px-4 sm:px-6 lg:px-8
+          w-full px-4
         ">
-          <div className="max-w-6xl mx-auto px-4 w-full flex flex-col justify-center items-center">
+          <div className="w-full px-4 flex flex-col justify-center items-center">
        
-          <h1 className="
-                text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
-                font-bold mb-4 md:mb-6
+          <h1
+            className="
+              text-xs
+              sm:text-4xl
+              md:text-5xl
+              lg:text-6xl
+              xl:text-7xl
+              font-bold
+              mb-4 md:mb-6
               text-gray-800
               leading-tight
-              opacity-0" ref={titleRef}>
+              opacity-0
+            "
+            ref={titleRef}
+          >
                 <span className="
                   bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
                   bg-[length:200%_100%]
@@ -56,19 +65,53 @@ const Brand = () => {
                 </span>
               </h1>
         
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto text-center opacity-0" ref={titleRef2}>
+            <p
+              className="
+                text-xs
+                sm:text-lg
+                md:text-xl
+                lg:text-2xl
+                text-gray-700
+                mb-8
+                max-w-3xl
+                mx-auto
+                text-center
+                opacity-0
+              "
+              ref={titleRef2}
+            >
               <span className="
                 bg-clip-text text-transparent 
                 bg-gradient-to-r from-pink-600 to-purple-600 font-bold">
                 創造を支え、支援へつなげる
               </span>
               <br />
-              <span className="text-sm sm:text-base md:text-lg">
+              <span className="
+                text-xs
+                sm:text-base
+                md:text-lg
+              ">
                 収益の一部は持続可能な慈善活動のために活用されます
               </span>
             </p>
             <div className="flex gap-4 opacity-0" ref={buttonRef}>
-              <button className="rounded-full px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 bg-white text-purple-600 hover:bg-purple-50 transition-colors text-sm sm:text-base md:text-lg font-medium shadow-lg hover:shadow-xl">
+              <button
+                className="
+                  rounded-full
+                  px-4 sm:px-6 md:px-8
+                  py-2 sm:py-3 md:py-4
+                  bg-white
+                  text-purple-600
+                  hover:bg-purple-50
+                  transition-colors
+                  text-xs
+                  sm:text-base
+                  md:text-lg
+                  font-medium
+                  shadow-lg
+                  hover:shadow-xl
+                "
+              >
                 Coming Soon
               </button>
             </div>
@@ -79,25 +122,47 @@ const Brand = () => {
         <section className="
           min-h-screen
           flex flex-col justify-center
-          px-4 sm:px-6 lg:px-8
+          w-full px-4
         ">
-          <div className="max-w-5xl mx-auto px-4 flex flex-col justify-center items-center">
-            <h2 className="
-            text-xl sm:text-3xl md:text-4xl lg:text-5xl 
-            font-bold mb-6 md:mb-8 
-            text-center leading-relaxed 
-            opacity-0
-            whitespace-nowrap" 
-            ref={titleRef3}>
+          <div className="w-full px-4 flex flex-col justify-center items-center">
+            <h2
+              className="
+                text-xs
+                sm:text-base
+                md:text-5xl
+                lg:text-6xl
+                font-bold
+                mb-6 md:mb-8
+                text-center
+                leading-tight
+                opacity-0
+              "
+              ref={titleRef3}
+            >
               <span className="
                 bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
                 bg-[length:200%_100%]
                 bg-clip-text text-transparent
-                animate-[AnimationTitle_5s_ease_infinite]">
+                animate-[AnimationTitle_5s_ease_infinite]
+                "
+              >
                 Code the life, make the future sparkle.
               </span>
             </h2>
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-8 text-center opacity-0" ref={titleRef4}>
+            <p
+              className="
+                text-xs
+                sm:text-base
+                md:text-xl
+                lg:text-2xl
+                font-bold
+                mb-8
+                text-center
+                leading-snug
+                opacity-0
+              "
+              ref={titleRef4}
+            >
               ― 人生に、新しい光を。
             </p>
           </div>
@@ -105,11 +170,20 @@ const Brand = () => {
 
         {/* Section 3 */}
         <section className="py-32">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="
-            text-2xl sm:text-3xl md:text-4xl lg:text-5xl 
-            font-bold text-center mb-12 
-            opacity-0" ref={brandTitleRef}>
+          <div className="w-full max-w-4xl mx-auto">
+            <h2
+              className="
+                text-xs
+                sm:text-3xl
+                md:text-4xl
+                lg:text-5xl
+                font-bold
+                text-center
+                mb-12
+                opacity-0
+              "
+              ref={brandTitleRef}
+            >
               <span className="
                 bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
                 bg-[length:200%_100%]
@@ -119,8 +193,17 @@ const Brand = () => {
               </span>
             </h2>
             <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
-              <div className="flex-1 text-left" ref={brandTextRef}>
-                <div className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-[#1b1b1b]">
+              <div className="w-full max-w-4xl mx-auto" ref={brandTextRef}>
+                <div
+                  className="
+                    text-xs
+                    sm:text-lg
+                    md:text-xl
+                    lg:text-2xl
+                    leading-relaxed
+                    text-[#1b1b1b]
+                  "
+                >
                   <div className="mb-4 whitespace-nowrap">
                     <AnimatedText 
                       text="8X Aid Circlesソーシャルブランドは" 

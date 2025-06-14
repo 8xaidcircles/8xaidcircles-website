@@ -53,26 +53,42 @@ const Home = () => {
         <section className="
           min-h-screen
           flex flex-col justify-center
-          px-4 sm:px-6 lg:px-8
+          w-full px-4
         ">
-          <div className="max-w-7xl mx-auto w-full">
+          <div className="w-full">
             <div className="text-left">
            
-              <h1 className="
-                text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl
-                font-bold mb-4 md:mb-6
-              text-gray-800
-              leading-tight
-              opacity-0
-              " ref={titleRef}>
+              <h1
+                className="
+                  text-xs
+                  sm:text-5xl
+                  md:text-6xl
+                  lg:text-7xl
+                  xl:text-8xl
+                  font-bold
+                  mb-4 md:mb-6
+                  text-gray-800
+                  leading-tight
+                  opacity-0
+                "
+                ref={titleRef}
+              >
                 Aid Without Borders,
               </h1>
-              <h1 className="
-                text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl
-                font-bold mb-8 md:mb-12
-                leading-tight
-                opacity-0
-              " ref={titleRef2}>
+              <h1
+                className="
+                  text-xs
+                  sm:text-5xl
+                  md:text-6xl
+                  lg:text-7xl
+                  xl:text-8xl
+                  font-bold
+                  mb-8 md:mb-12
+                  leading-tight
+                  opacity-0
+                "
+                ref={titleRef2}
+              >
               <span className="
                 bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
                 bg-[length:200%_100%]
@@ -83,15 +99,21 @@ const Home = () => {
               </span>
             </h1>
          
-            <p ref={subtitleRef} className="
-                text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl
-              text-gray-700
-              mb-8 md:mb-10 lg:mb-12
-              leading-relaxed
-                whitespace-nowrap
-                overflow-hidden
-              opacity-0
-            ">
+            <p
+              ref={subtitleRef}
+              className="
+                text-xs
+                sm:text-base
+                md:text-lg
+                lg:text-xl
+                xl:text-2xl
+                2xl:text-3xl
+                text-gray-700
+                mb-8 md:mb-10 lg:mb-12
+                leading-relaxed
+                opacity-0
+              "
+            >
               8X Aid Circles は 「助け合いの輪（Aid Circles）」 を創ります
             </p>
             </div>
@@ -100,12 +122,24 @@ const Home = () => {
 
         {/* <Section 2> */}
         <section className="min-h-screen flex flex-col justify-center items-center pt-16 md:pt-20 pb-8 md:pb-10">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="w-full max-w-4xl mx-auto">
             <div ref={philosophyTextRef} className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-16 items-start">
               {/* Left side - Philosophy title */}
               <div className="lg:col-span-1">
           
-                <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#1b1b1b] tracking-wider opacity-0" ref={philosophyTitleRef}>
+                <h2
+                  className="
+                    text-xs
+                    sm:text-xl
+                    md:text-2xl
+                    lg:text-3xl
+                    font-bold
+                    text-[#1b1b1b] 
+                    tracking-wider 
+                    opacity-0
+                  "
+                  ref={philosophyTitleRef}
+                >
                   Philosophy
                 </h2>
            
@@ -113,7 +147,10 @@ const Home = () => {
               
               {/* Right side - Animated text content */}
               <div className="lg:col-span-2">
-                <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-[#1b1b1b]">
+                <h2 className="text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl 
+                leading-relaxed 
+                text-[#1b1b1b]"
+                >
                   <div className="mb-2 whitespace-nowrap">
                     <AnimatedText 
                       text="「命のもとの平等」という理念のもと" 
@@ -171,13 +208,18 @@ const Home = () => {
 
         {/* <Section 3> */}
         <section className="flex flex-col justify-center items-center pt-8 md:pt-10 pb-32 md:pb-48">
-          <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-8">
         
               <h2
                 ref={aboutTitleRef}
                 className="
-                  text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold
+                  text-xs
+                  sm:text-4xl
+                  md:text-5xl
+                  lg:text-6xl
+                  xl:text-7xl
+                  font-bold
                   opacity-0
                   mb-6 md:mb-8 lg:mb-10
                   text-center
@@ -197,7 +239,12 @@ const Home = () => {
               <p
                 ref={aboutSubtitleRef}
                 className="
-                  text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-700
+                  text-xs
+                  sm:text-2xl
+                  md:text-3xl
+                  lg:text-4xl
+                  font-bold
+                  text-gray-700
                   mt-4 max-w-4xl mx-auto
                   opacity-0
                   leading-tight
@@ -211,11 +258,24 @@ const Home = () => {
 
         {/* <Section 4> */}
         <section className="min-h-screen flex flex-col justify-center items-center pt-16 md:pt-20 pb-8 md:pb-10">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+          <div className="w-full px-4 sm:px-6 lg:px-8 w-full">
             {/* Servicesタイトルを中央に配置 */}
             <div className="w-full flex justify-center mb-12">
  
-                <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#1b1b1b] tracking-wider text-center opacity-0" ref={serviceTitleRef}>
+                <h2
+                  className="
+                    text-xs
+                    sm:text-xl
+                    md:text-2xl
+                    lg:text-3xl
+                    font-bold
+                    text-[#1b1b1b]
+                    tracking-wider
+                    text-center
+                    opacity-0
+                  "
+                  ref={serviceTitleRef}
+                >
                   Services
                 </h2>
     
@@ -224,15 +284,43 @@ const Home = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 w-full justify-center">
               {/* テクノロジー支援カード */}
               <div className="bg-white rounded-2xl p-8 md:p-10 w-full border-2 opacity-0" style={{borderImage: 'linear-gradient(90deg, #43e97b 0%, #38f9d7 50%, #fa8bff 100%) 1'}} ref={technologyRef}>
-                <h2 className="text-xl md:text-2xl font-bold text-[#1b1b1b] mb-4">テクノロジー事業</h2>
-                <p className="text-base md:text-lg text-gray-700">
+                <h2
+                  className="
+                    text-xs
+                    md:text-2xl
+                    font-bold
+                    text-[#1b1b1b]
+                    mb-4
+                  "
+                >テクノロジー事業</h2>
+                <p
+                  className="
+                    text-xs
+                    md:text-lg
+                    text-gray-700
+                  "
+                >
                   最新のデジタルツールを活用し、社会貢献の新しい形を創造します
                 </p>
               </div>
               {/* ブランド事業カード */}
               <div className="bg-white rounded-2xl p-8 md:p-10 w-full border-2 opacity-0" style={{borderImage: 'linear-gradient(90deg, #43e97b 0%, #38f9d7 50%, #fa8bff 100%) 1'}} ref={brandRef}>
-                <h2 className="text-xl md:text-2xl font-bold text-[#1b1b1b] mb-4">ブランド事業</h2>
-                <p className="text-base md:text-lg text-gray-700">
+                <h2
+                  className="
+                    text-xs
+                    md:text-2xl
+                    font-bold
+                    text-[#1b1b1b]
+                    mb-4
+                  "
+                >ブランド事業</h2>
+                <p
+                  className="
+                    text-xs
+                    md:text-lg
+                    text-gray-700
+                  "
+                >
                   社会課題の解決に貢献するソーシャルブランドを展開します
                 </p>
               </div>
