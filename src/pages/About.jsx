@@ -121,19 +121,16 @@ const About = () => {
                 </h3>
                 <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef2}>
                   <p className="mb-2">
-                      命の価値に境界線を引かない世界
+                      命に境界のない世界を創る
                   </p>
                   <p className="mb-2">
-                      誰もが誇りと尊厳を持ち
+                      誰もが人生を自由に創造できる未来
                   </p>
                   <p className="mb-2">
-                      人生を自由に創造できる未来
+                      国や立場を越えて支え合う
                   </p>
                   <p className="mb-2">
-                      国や立場を越えて人と人が支え合う
-                  </p>
-                  <p className="mb-2">
-                      Aid Circles（助け合いの循環）を世界へ
+                      Aid Circles を世界へ
                   </p>
                 </div>
               </div>
