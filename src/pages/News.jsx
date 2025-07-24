@@ -43,41 +43,46 @@ export default function News() {
       <Helmet>
         <title>News - 8X Aid Circles</title>
         <meta name="description" content="8X Aid Circles - A Circle of Support, A World of Hope" />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
       </Helmet>
       <div className="
         bg-[linear-gradient(135deg,#E6E6FA,#FFD1DC,#FFC0CB,#FAFAD2,#B0E0E6,#ADD8E6,white_85%)] 
         bg-[length:600%_600%] bg-[position:0%_0%] 
         animate-[gradientAnimation_18s_ease-in-out_infinite] 
-        font-['Open_Sans'] min-h-screen">
+        font-baskerville min-h-screen">
         {/* Section 1 */}
-        <section className="min-h-screen flex flex-col justify-center items-center w-full px-4">
+        <section className="min-h-screen flex flex-col justify-center items-center w-full px-4 3xl:px-8 4xl:px-12 5xl:px-16">
       
-            <h1
-              className="
-                text-4xl
-                sm:text-5xl
-                md:text-6xl
-                lg:text-7xl
-                xl:text-8xl
-                font-bold
-                text-center
-                opacity-0
-              "
-              ref={titleRef}
-            >
-              <span className="
-                bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
-                bg-[length:200%_100%]
-                bg-clip-text text-transparent
-                animate-[AnimationTitle_5s_ease_infinite]"> News</span>
-            </h1>
+            <div className="w-full max-w-12xl mx-auto flex flex-col justify-center items-center">
+              <h1
+                className="
+                  text-4xl
+                  sm:text-5xl
+                  md:text-6xl
+                  lg:text-7xl
+                  xl:text-8xl
+                  3xl:text-9xl
+                  4xl:text-10xl
+                  5xl:text-11xl
+                  font-bold
+                  text-center
+                  opacity-0
+                "
+                ref={titleRef}
+              >
+                <span className="
+                  bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
+                  bg-[length:200%_100%]
+                  bg-clip-text text-transparent
+                  animate-[AnimationTitle_5s_ease_infinite]"> News</span>
+              </h1>
+            </div>
         
         </section>
         {/* Section 2 */}
-        <section className="min-h-screen flex flex-col justify-center items-center py-16 sm:py-24 md:py-32 opacity-0" ref={newsRef}>
-          <div className="w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 md:py-10">
+        <section className="min-h-screen flex flex-col justify-center items-center py-16 sm:py-24 md:py-32 3xl:py-40 4xl:py-48 opacity-0" ref={newsRef}>
+          <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 3xl:px-12 4xl:px-16 py-6 sm:py-8 md:py-10 3xl:py-12 4xl:py-16">
             {loading && (
               <p
                 className="

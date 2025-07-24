@@ -13,7 +13,37 @@ module.exports = {
   ],
 
   theme: {
+    screens: {
+      'xs': '480px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+      '3xl': '1920px',  // Full HD TV
+      '4xl': '2560px',  // 2K/WQHD displays
+      '5xl': '3840px',  // 4K TV
+    },
     extend: {
+      maxWidth: {
+        '8xl': '88rem',
+        '9xl': '96rem',
+        '10xl': '104rem',
+        '11xl': '112rem',
+        '12xl': '120rem',
+      },
+      spacing: {
+        '128': '32rem',
+        '144': '36rem',
+        '160': '40rem',
+        '176': '44rem',
+        '192': '48rem',
+      },
+      fontSize: {
+        '10xl': '10rem',
+        '11xl': '12rem',
+        '12xl': '14rem',
+      },
       colors: {
         'lavender': '#E6E6FA',
         'light-blue': '#B0E0E6',
@@ -65,8 +95,9 @@ module.exports = {
         '200': '200% 200%',
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        sans: ["Open Sans", "sans-serif"],
+        sans: ["Libre Baskerville", "serif"],
+        serif: ["Libre Baskerville", "serif"],
+        baskerville: ["Libre Baskerville", "serif"],
       },
     },
   },

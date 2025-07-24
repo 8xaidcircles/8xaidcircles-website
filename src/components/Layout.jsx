@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
 
 const Layout = ({ children, fullWidthContent }) => (
-  <div className="min-h-screen flex flex-col">
+  <div className="min-h-screen flex flex-col font-baskerville">
     <ScrollToTop />
     <Header />
     

@@ -23,7 +23,7 @@ const Brand = () => {
       <Helmet>
         <title>Brand - 8X Aid Circles</title>
         <meta name="description" content="8X Aid Circles - A Circle of Support, A World of Hope" />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
       </Helmet>
 
@@ -31,15 +31,15 @@ const Brand = () => {
         bg-[linear-gradient(135deg,#E6E6FA,#FFD1DC,#FFC0CB,#FAFAD2,#B0E0E6,#ADD8E6,white_85%)] 
         bg-[length:600%_600%] bg-[position:0%_0%] 
         animate-[gradientAnimation_18s_ease-in-out_infinite] 
-        font-['Open_Sans'] min-h-screen">
+        font-baskerville min-h-screen">
 
         {/* Section 1 */}
         <section className="
           min-h-screen
           flex flex-col justify-center
-          w-full px-4
+          w-full px-4 3xl:px-8 4xl:px-12 5xl:px-16
         ">
-          <div className="w-full px-4 flex flex-col justify-center items-center">
+          <div className="w-full max-w-12xl mx-auto px-4 flex flex-col justify-center items-center">
        
           <h1
             className="
@@ -48,8 +48,11 @@ const Brand = () => {
               md:text-6xl
               lg:text-7xl
               xl:text-8xl
+              3xl:text-9xl
+              4xl:text-10xl
+              5xl:text-11xl
               font-bold
-              mb-4 md:mb-6
+              mb-4 md:mb-6 3xl:mb-8 4xl:mb-12
               text-gray-800
               leading-tight
               opacity-0
@@ -247,7 +250,7 @@ const Brand = () => {
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="それが8X Aid Circlesソーシャルブランドの使命です" 
+                      text="それが8X Aid Circlesの使命です" 
                       isVisible={brandTextVisible}
                       delay={3200}
                     />

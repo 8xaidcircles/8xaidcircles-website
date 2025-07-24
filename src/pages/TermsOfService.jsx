@@ -4,30 +4,30 @@ import Layout from '../components/Layout';
 const TermsOfService = () => {
   return (
     <Layout>
-      <div className="max-w-4xl mx-auto px-4 pt-32 pb-12">
-        <h1 className="text-3xl font-bold mb-8">利用規約（8X Aid Circles）</h1>
-        <div className="space-y-6 text-gray-700">
+      <div className="max-w-8xl mx-auto px-4 3xl:px-8 4xl:px-12 5xl:px-16 pt-32 3xl:pt-40 4xl:pt-48 pb-12 3xl:pb-16 4xl:pb-20">
+        <h1 className="text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl font-bold mb-8 3xl:mb-12 4xl:mb-16">利用規約（8X Aid Circles）</h1>
+        <div className="space-y-6 3xl:space-y-8 4xl:space-y-10 text-gray-700 text-base 3xl:text-lg 4xl:text-xl 5xl:text-2xl leading-relaxed">
           <p>
             本利用規約（以下「本規約」といいます）は、8X Aid Circles（以下「当団体」または「当社」といいます）が運営するウェブサイトおよびアプリケーション（以下「当社電子プラットフォーム」といいます）の利用条件を定めるものです。利用者（以下「ユーザー」といいます）は、当社電子プラットフォームの利用にあたり、本規約に同意したものとみなされます。
           </p>
 
           <section>
-            <h2 className="text-xl font-semibold mb-4">第1条（総則）</h2>
+            <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">第1条（総則）</h2>
             <p>
               ユーザーは、当社電子プラットフォームへのアクセスまたは利用を行うことにより、本規約の全ての条項に法的に拘束されることに同意したものとみなされます。本規約に同意されない場合、当社電子プラットフォームのご利用はできません。
             </p>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold mb-4">第2条（規約の変更）</h2>
+            <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">第2条（規約の変更）</h2>
             <p>
               当社は、本規約を必要に応じて変更することができるものとします。変更後の規約は当社電子プラットフォーム上に掲載された時点で効力を生じ、ユーザーがその後も当社電子プラットフォームを利用した場合には、変更後の規約に同意したものとみなします。
             </p>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold mb-4">第3条（知的財産権）</h2>
-            <ol className="list-decimal ml-6 mt-2 space-y-2">
+            <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">第3条（知的財産権）</h2>
+            <ol className="list-decimal ml-6 3xl:ml-8 4xl:ml-10 mt-2 3xl:mt-4 4xl:mt-6 space-y-2 3xl:space-y-4 4xl:space-y-6">
               <li>
                 <span className="font-bold">商標について</span><br />
                 「8X Aid Circles」および関連するロゴや名称は、当社の商標または商標申請中のものです。無断での使用・模倣・類似使用は固くお断りします。
@@ -46,14 +46,14 @@ const TermsOfService = () => {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold mb-4">第4条（年齢・契約能力）</h2>
+            <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">第4条（年齢・契約能力）</h2>
             <p>
               ユーザーは、利用にあたり18歳以上または法定の成年年齢に達しており、法的な契約を締結する能力があることを表明するものとします。
             </p>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold mb-4">第5条（免責）</h2>
+            <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">第5条（免責）</h2>
             <p>
               当社電子プラットフォームの内容や提供情報は、現状有姿で提供されるものであり、当社はその正確性、完全性、有用性、信頼性について保証するものではありません。また、予告なく内容を変更・削除することがあります。
             </p>

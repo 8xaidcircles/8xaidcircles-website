@@ -38,7 +38,7 @@ const Home = () => {
       <Helmet>
         <title>8X Aid Circles</title>
         <meta name="description" content="8X Aid Circles - A Circle of Support, A World of Hope" />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
       </Helmet>
 
@@ -46,27 +46,31 @@ const Home = () => {
         bg-[linear-gradient(135deg,#E6E6FA,#FFD1DC,#FFC0CB,#FAFAD2,#B0E0E6,#ADD8E6,white_85%)]
         bg-[length:600%_600%] bg-[position:0%_0%]
         animate-[gradientAnimation_18s_ease-in-out_infinite]
-        font-['Open_Sans']
+        font-baskerville
       ">
 
         {/* <Section 1> */}
         <section className="
           min-h-screen
           flex flex-col justify-center
-          w-full px-4
+          w-full px-4 3xl:px-8 4xl:px-12 5xl:px-16
         ">
-          <div className="w-full">
+          <div className="w-full max-w-12xl mx-auto">
             <div className="text-left">
            
               <h1
                 className="
-                  text-3xl
-                  sm:text-4xl
+                  text-4xl
+                  sm:text-5xl
                   md:text-6xl
                   lg:text-7xl
                   xl:text-8xl
+                  2xl:text-8xl
+                  3xl:text-9xl
+                  4xl:text-10xl
+                  5xl:text-11xl
                   font-bold
-                  mb-4 md:mb-6
+                  mb-4 md:mb-6 lg:mb-7 xl:mb-8 2xl:mb-10 3xl:mb-8 4xl:mb-12
                   text-gray-800
                   leading-tight
                   opacity-0
@@ -77,13 +81,17 @@ const Home = () => {
               </h1>
               <h1
                 className="
-                  text-3xl
-                  sm:text-4xl
+                  text-4xl
+                  sm:text-5xl
                   md:text-6xl
                   lg:text-7xl
                   xl:text-8xl
+                  2xl:text-8xl
+                  3xl:text-9xl
+                  4xl:text-10xl
+                  5xl:text-11xl
                   font-bold
-                  mb-8 md:mb-12
+                  mb-8 md:mb-10 lg:mb-12 xl:mb-14 2xl:mb-16 3xl:mb-16 4xl:mb-20
                   leading-tight
                   opacity-0
                 "
@@ -104,12 +112,15 @@ const Home = () => {
               className="
                 text-base
                 sm:text-lg
-                md:text-lg
+                md:text-xl
                 lg:text-xl
                 xl:text-2xl
                 2xl:text-3xl
+                3xl:text-4xl
+                4xl:text-5xl
+                5xl:text-6xl
                 text-gray-700
-                mb-8 md:mb-10 lg:mb-12
+                mb-8 md:mb-10 lg:mb-12 xl:mb-14 2xl:mb-16 3xl:mb-16 4xl:mb-20
                 leading-relaxed
                 opacity-0
               "
@@ -122,13 +133,12 @@ const Home = () => {
 
         {/* <Section 2> */}
         <section className="
-        min-h-screen flex flex-col justify-center w-full px-4 pt-16 md:pt-20 pb-8 md:pb-10
-        font-['Open_Sans']
+        min-h-screen flex flex-col justify-center w-full px-4 3xl:px-8 4xl:px-12 5xl:px-16 pt-16 md:pt-20 3xl:pt-24 4xl:pt-32 pb-8 md:pb-10 3xl:pb-12 4xl:pb-16
         ">
-          <div className="w-full max-w-7xl mx-auto">
-            <div ref={philosophyTextRef} className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-16 items-start">
+          <div className="w-full max-w-12xl mx-auto">
+            <div ref={philosophyTextRef} className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-16 3xl:gap-20 4xl:gap-24 items-center lg:items-start">
               {/* Left side - Philosophy title */}
-              <div className="lg:col-span-1">
+              <div className="lg:col-span-1 flex flex-col justify-center items-center lg:items-start lg:justify-center lg:text-left text-center">
           
                 <h2
                   className="
@@ -136,10 +146,18 @@ const Home = () => {
                     sm:text-3xl
                     md:text-4xl
                     lg:text-5xl
+                    3xl:text-6xl
+                    4xl:text-7xl
+                    5xl:text-8xl
                     font-bold
                     text-[#1b1b1b] 
                     tracking-wider 
                     opacity-0
+                    lg:ml-20
+                    md:ml-12
+                    ml-6
+                    lg:self-start
+                    self-center
                   "
                   ref={philosophyTitleRef}
                 >
@@ -150,7 +168,7 @@ const Home = () => {
               
               {/* Right side - Animated text content */}
               <div className="lg:col-span-2">
-                <h2 className="text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl 
+                <h2 className="text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl
                 leading-relaxed 
                 text-[#1b1b1b]"
                 >
@@ -210,21 +228,24 @@ const Home = () => {
         </section>
 
         {/* <Section 3> */}
-        <section className="flex flex-col justify-center items-center pt-8 md:pt-10 pb-32 md:pb-48">
-          <div className="w-full px-4 sm:px-6 lg:px-8">
+        <section className="flex flex-col justify-center items-center pt-8 md:pt-10 3xl:pt-16 4xl:pt-20 pb-32 md:pb-48 3xl:pb-64 4xl:pb-80">
+          <div className="w-full max-w-12xl mx-auto px-4 sm:px-6 lg:px-8 3xl:px-12 4xl:px-16">
             <div className="text-center mb-8">
         
               <h2
                 ref={aboutTitleRef}
                 className="
-                  text-3xl
-                  sm:text-4xl
-                  md:text-5xl
-                  lg:text-6xl
-                  xl:text-7xl
+                  text-4xl
+                  sm:text-5xl
+                  md:text-6xl
+                  lg:text-7xl
+                  xl:text-8xl
+                  3xl:text-9xl
+                  4xl:text-10xl
+                  5xl:text-11xl
                   font-bold
                   opacity-0
-                  mb-6 md:mb-8 lg:mb-10
+                  mb-6 md:mb-8 lg:mb-10 3xl:mb-12 4xl:mb-16
                   text-center
                   leading-tight
                 "
@@ -246,9 +267,12 @@ const Home = () => {
                   sm:text-2xl
                   md:text-3xl
                   lg:text-4xl
+                  3xl:text-5xl
+                  4xl:text-6xl
+                  5xl:text-7xl
                   font-bold
                   text-gray-700
-                  mt-4 max-w-4xl mx-auto
+                  mt-4 max-w-10xl mx-auto
                   opacity-0
                   leading-tight
                 "
@@ -260,10 +284,10 @@ const Home = () => {
         </section>
 
         {/* <Section 4> */}
-        <section className="min-h-screen flex flex-col justify-center items-center pt-16 md:pt-20 pb-8 md:pb-10">
-          <div className="w-full px-4 sm:px-6 lg:px-8 w-full">
+        <section className="min-h-screen flex flex-col justify-center items-center pt-16 md:pt-20 3xl:pt-24 4xl:pt-32 pb-8 md:pb-10 3xl:pb-12 4xl:pb-16">
+          <div className="w-full max-w-12xl mx-auto px-4 sm:px-6 lg:px-8 3xl:px-12 4xl:px-16 w-full">
             {/* Servicesタイトルを中央に配置 */}
-            <div className="w-full flex justify-center mb-12">
+            <div className="w-full flex justify-center mb-12 3xl:mb-16 4xl:mb-20">
  
                 <h2
                   className="
@@ -271,6 +295,9 @@ const Home = () => {
                     sm:text-3xl
                     md:text-4xl
                     lg:text-5xl
+                    3xl:text-6xl
+                    4xl:text-7xl
+                    5xl:text-8xl
                     font-bold
                     text-[#1b1b1b]
                     tracking-wider
@@ -284,44 +311,58 @@ const Home = () => {
     
             </div>
             {/* 2カラムで横並びのグラデーションボーダーカード */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 w-full justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 3xl:gap-16 4xl:gap-20 w-full justify-center">
               {/* テクノロジー支援カード */}
-              <div className="bg-white rounded-2xl p-8 md:p-10 w-full border-2 opacity-0" style={{borderImage: 'linear-gradient(90deg, #43e97b 0%, #38f9d7 50%, #fa8bff 100%) 1'}} ref={technologyRef}>
+              <div className="bg-white rounded-2xl 3xl:rounded-3xl p-8 md:p-10 3xl:p-12 4xl:p-16 w-full border-2 opacity-0" style={{borderImage: 'linear-gradient(90deg, #43e97b 0%, #38f9d7 50%, #fa8bff 100%) 1'}} ref={technologyRef}>
                 <h2
                   className="
                     text-base
                     md:text-2xl
+                    3xl:text-3xl
+                    4xl:text-4xl
+                    5xl:text-5xl
                     font-bold
                     text-[#1b1b1b]
-                    mb-4
+                    mb-4 3xl:mb-6 4xl:mb-8
                   "
                 >テクノロジー事業</h2>
                 <p
                   className="
                     text-base
                     md:text-lg
+                    3xl:text-xl
+                    4xl:text-2xl
+                    5xl:text-3xl
                     text-gray-700
+                    leading-relaxed
                   "
                 >
                   最新のデジタルツールを活用し、社会貢献の新しい形を創造します
                 </p>
               </div>
               {/* ブランド事業カード */}
-              <div className="bg-white rounded-2xl p-8 md:p-10 w-full border-2 opacity-0" style={{borderImage: 'linear-gradient(90deg, #43e97b 0%, #38f9d7 50%, #fa8bff 100%) 1'}} ref={brandRef}>
+              <div className="bg-white rounded-2xl 3xl:rounded-3xl p-8 md:p-10 3xl:p-12 4xl:p-16 w-full border-2 opacity-0" style={{borderImage: 'linear-gradient(90deg, #43e97b 0%, #38f9d7 50%, #fa8bff 100%) 1'}} ref={brandRef}>
                 <h2
                   className="
                     text-base
                     md:text-2xl
+                    3xl:text-3xl
+                    4xl:text-4xl
+                    5xl:text-5xl
                     font-bold
                     text-[#1b1b1b]
-                    mb-4
+                    mb-4 3xl:mb-6 4xl:mb-8
                   "
                 >ブランド事業</h2>
                 <p
                   className="
                     text-base
                     md:text-lg
+                    3xl:text-xl
+                    4xl:text-2xl
+                    5xl:text-3xl
                     text-gray-700
+                    leading-relaxed
                   "
                 >
                   社会課題の解決に貢献するソーシャルブランドを展開します

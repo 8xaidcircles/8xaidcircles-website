@@ -1,3 +1,4 @@
+// vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -9,4 +10,4 @@ export default defineConfig({
   server: {
     historyApiFallback: true // React Router 使用時の設定
   }
-}); 
+});
