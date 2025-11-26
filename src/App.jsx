@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import PrivacyPolicy from './pages/PrivacyPolicy';
+import PrivacyPolicy from './pages/PolicyDoc';
 import TermsOfService from './pages/TermsOfService';
 import Contact from './pages/Contact';
 import './index.css';

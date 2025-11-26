@@ -33,11 +33,7 @@ const About = () => {
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
       </Helmet>
 
-      <div className="
-      bg-[linear-gradient(135deg,#E6E6FA,#FFD1DC,#FFC0CB,#FAFAD2,#B0E0E6,#ADD8E6,white_85%)] 
-      bg-[length:600%_600%] bg-[position:0%_0%] 
-      animate-[gradientAnimation_18s_ease-in-out_infinite] 
-      min-h-screen">
+      <div className="min-h-screen">
                         
         {/* Section 1 */}
         <section className="relative min-h-screen flex items-center justify-center px-4 3xl:px-8 4xl:px-12 5xl:px-16">
@@ -88,7 +84,7 @@ const About = () => {
                    境遇に関わらず誰もが可能性を持ち
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                   尊厳と役割を持って生きられる社会の実現を目指し
+                   尊厳を持って生きられるよう
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
                     テクノロジーの力で
@@ -116,8 +112,24 @@ const About = () => {
             </div>
             <div className="w-full flex flex-col items-center">
               <div className="max-w-8xl w-full text-center mx-auto">
-                <h3 className="mt-8 3xl:mt-12 4xl:mt-16 mb-12 3xl:mb-16 4xl:mb-20 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef2}>
-                  Aid without border, <br />Hope without limits.
+                <h3
+                  className="
+                    text-xl
+                    sm:text-2xl
+                    md:text-3xl
+                    lg:text-4xl
+                    xl:text-5xl
+                    3xl:text-6xl
+                    4xl:text-7xl
+                    5xl:text-8xl
+                    font-bold
+                    mb-8 md:mb-10 lg:mb-12 xl:mb-14 2xl:mb-16 3xl:mb-16 4xl:mb-20
+                    leading-tight
+                    opacity-0
+                  "
+                  ref={subtitleRef2}
+                >
+                  Aid Without Borders,<br />Hope Without Limits.
                 </h3>
                 <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef2}>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
@@ -130,7 +142,7 @@ const About = () => {
                       国や立場を越えて支え合う
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                      Aid Circles を世界へ
+                      Aid Circles を創っていく
                   </p>
                 </div>
               </div>
@@ -162,29 +174,54 @@ const About = () => {
                 </div>
 
                 <div className="mb-8 3xl:mb-12 4xl:mb-16">
-                  <h3 className="mt-8 3xl:mt-12 4xl:mt-16 mb-4 3xl:mb-6 4xl:mb-8 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef5}>
-                    循環する支援
-                  </h3>
-                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef5}>
-                    支援が一過性で終わらないよう事業と支援を両立させる持続可能な仕組みを追求する
-                  </div>
+                <h3
+                  className="
+                    text-xl
+                    sm:text-2xl
+                    md:text-3xl
+                    lg:text-4xl
+                    xl:text-5xl
+                    3xl:text-6xl
+                    4xl:text-7xl
+                    5xl:text-8xl
+                    font-bold
+                    mb-2 3xl:mb-3 4xl:mb-4
+                    leading-tight
+                    opacity-0
+                  "
+                  ref={subtitleRef4}
+                >
+                  One for Aid —循環する支援
+                </h3>
+                <div
+                  className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] text-center mt-0 opacity-0"
+                  ref={textRef4}
+                >
+                  1つの創作が、1つの支援を生む
+                </div>
+                <div
+                  className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] text-center mt-1 opacity-0"
+                  ref={textRef5}
+                >
+                  支援が一過性で終わらないよう事業と支援を両立させる持続可能な仕組みを大切にする
+                </div>
                 </div>
 
                 <div className="mb-8 3xl:mb-12 4xl:mb-16">
-                    <h3 className="mt-8 3xl:mt-12 4xl:mt-16 mb-4 3xl:mb-6 4xl:mb-8 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef6}>
+                    <h3 className="mt-8 3xl:mt-12 4xl:mt-16 mb-4 3xl:mb-6 4xl:mb-8 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef5}>
                     テクノロジーと善意の融合
                   </h3>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef6}>
-                    テクノロジーを活用し善意の力を拡張する新しい形の社会的支援を実現する
+                    テクノロジーを活用し善意の力を拡張する新しい支援のかたちを実現する
                   </div>
                 </div>
 
                 <div className="mb-8 3xl:mb-12 4xl:mb-16">
-                <h3 className="mt-8 3xl:mt-12 4xl:mt-16 mb-4 3xl:mb-6 4xl:mb-8 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef7}>
+                  <h3 className="mt-8 3xl:mt-12 4xl:mt-16 mb-4 3xl:mb-6 4xl:mb-8 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef6}>
                     枠を越えた挑戦
                   </h3>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef7}>
-                    国境/立場を越え「Aid without border, Hope without limits.」の精神で行動する
+                    国境や立場を越え「Aid without border, Hope without limits.」の精神で行動する
                   </div>
                 </div>
               </div>

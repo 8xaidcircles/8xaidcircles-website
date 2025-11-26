@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Arial', 'Helvetica', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,4 +13,47 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.animated-gradient {
+  background: linear-gradient(
+    45deg,
+    #ffffff 0%,
+    #ff6b6b 14%,
+    #ffa500 28%,
+    #ffff00 42%,
+    #32cd32 56%,
+    #1e90ff 70%,
+    #8a2be2 84%,
+    #ffffff 100%
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 20s ease-in-out infinite;
+  position: fixed;
+  inset: 0;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 70%;
+  }
+  25% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animated-gradient {
+    animation: none;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
+  }
 }

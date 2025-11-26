@@ -42,12 +42,7 @@ const Home = () => {
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
       </Helmet>
 
-      <div className="
-        bg-[linear-gradient(135deg,#E6E6FA,#FFD1DC,#FFC0CB,#FAFAD2,#B0E0E6,#ADD8E6,white_85%)]
-        bg-[length:600%_600%] bg-[position:0%_0%]
-        animate-[gradientAnimation_18s_ease-in-out_infinite]
-        font-baskerville
-      ">
+      <div className="font-sans">
 
         {/* <Section 1> */}
         <section className="

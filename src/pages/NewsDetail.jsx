@@ -40,10 +40,7 @@ export default function NewsDetail() {
     <Layout>
       <div className="
       min-h-screen 
-      bg-[linear-gradient(135deg,#E6E6FA,#FFD1DC,#FFC0CB,#FAFAD2,#B0E0E6,#ADD8E6,white_85%)] 
-      bg-[length:600%_600%] bg-[position:0%_0%] 
-      animate-[gradientAnimation_18s_ease-in-out_infinite] 
-      font-baskerville">
+      font-sans">
         <section className="min-h-screen flex flex-col justify-center items-center py-16 sm:py-24 md:py-32 opacity-0" ref={newsRef}>
           <div className="w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 md:py-10 bg-white rounded-xl sm:rounded-2xl shadow-lg">
            

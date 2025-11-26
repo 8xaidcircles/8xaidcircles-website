@@ -13,6 +13,10 @@ module.exports = {
   ],
 
   theme: {
+    fontFamily: {
+      sans: ['Arial', 'Helvetica', 'sans-serif'],
+      serif: ['Arial', 'Helvetica', 'sans-serif'],
+    },
     screens: {
       'xs': '480px',
       'sm': '640px',
@@ -94,11 +98,6 @@ module.exports = {
       backgroundSize: {
         '200': '200% 200%',
       },
-      fontFamily: {
-        sans: ["Libre Baskerville", "serif"],
-        serif: ["Libre Baskerville", "serif"],
-        baskerville: ["Libre Baskerville", "serif"],
-      },
     },
   },
 
@@ -118,7 +117,7 @@ module.exports = {
             inset: '0',
             borderRadius: 'inherit',
             padding: '2px',
-            background: 'linear-gradient(90deg, #4ADE80 0%, #3B82F6 50%, #EF4444 100%)',
+            background: 'linear-gradient(90deg, #ffffff 0%, #ff6b6b 14%, #ffa500 28%, #ffff00 42%, #32cd32 56%, #1e90ff 70%, #8a2be2 84%, #ffffff 100%)',
             mask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
             '-webkit-mask': 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
             '-webkit-mask-composite': 'xor',

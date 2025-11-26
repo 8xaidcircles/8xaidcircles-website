@@ -27,11 +27,7 @@ const Brand = () => {
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
       </Helmet>
 
-      <div className="
-        bg-[linear-gradient(135deg,#E6E6FA,#FFD1DC,#FFC0CB,#FAFAD2,#B0E0E6,#ADD8E6,white_85%)] 
-        bg-[length:600%_600%] bg-[position:0%_0%] 
-        animate-[gradientAnimation_18s_ease-in-out_infinite] 
-        font-baskerville min-h-screen">
+      <div className="font-sans min-h-screen">
 
         {/* Section 1 */}
         <section className="
@@ -229,7 +225,7 @@ const Brand = () => {
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="支援 × 創造 × 発信の力で" 
+                      text="支援 × 創造の力で" 
                       isVisible={brandTextVisible}
                       delay={800}
                     />
@@ -243,16 +239,23 @@ const Brand = () => {
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
+                      text={`One for Aid　\nー あなたの選択が、誰かの希望につながる仕組み`} 
+                      isVisible={brandTextVisible}
+                      delay={2200}
+                    />
+                  </div>
+                  <div className="mb-2">
+                    <AnimatedText 
                       text="表現を通じて支援の価値を届ける" 
                       isVisible={brandTextVisible}
-                      delay={2400}
+                      delay={3400}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
                       text="それが8X Aid Circlesの使命です" 
                       isVisible={brandTextVisible}
-                      delay={3200}
+                      delay={4200}
                     />
                   </div>
                 </div>

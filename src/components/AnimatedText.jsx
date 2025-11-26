@@ -15,11 +15,15 @@ const AnimatedText = ({ text, isVisible, className, delay = 0 }) => {
   }, [isVisible, text, delay]);
 
   const splitText = text.split('').map((char, index) => {
+    if (char === '\n') {
+      return <br key={`br-${index}`} />;
+    }
+
     const isCharAnimated = animatedChars.has(`${delay}-${index}`);
     return (
       <span
         key={index}
-        className={`inline-block transition-colors duration-300`}
+        className="inline-block transition-colors duration-300"
         style={{
           color: isCharAnimated ? '#1b1b1b' : '#f9f9f9'
         }}

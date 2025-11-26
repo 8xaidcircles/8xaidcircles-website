@@ -46,11 +46,7 @@ export default function News() {
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
       </Helmet>
-      <div className="
-        bg-[linear-gradient(135deg,#E6E6FA,#FFD1DC,#FFC0CB,#FAFAD2,#B0E0E6,#ADD8E6,white_85%)] 
-        bg-[length:600%_600%] bg-[position:0%_0%] 
-        animate-[gradientAnimation_18s_ease-in-out_infinite] 
-        font-baskerville min-h-screen">
+      <div className="font-sans min-h-screen">
         {/* Section 1 */}
         <section className="min-h-screen flex flex-col justify-center items-center w-full px-4 3xl:px-8 4xl:px-12 5xl:px-16">
       
