@@ -272,7 +272,7 @@ const Home = () => {
                   leading-tight
                 "
               >
-                A Circle of Support, A World of Hope
+                Aid for One
               </p>
               </div>
             </div>

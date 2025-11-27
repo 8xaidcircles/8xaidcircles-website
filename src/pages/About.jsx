@@ -142,7 +142,7 @@ const About = () => {
                       国や立場を越えて支え合う
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                      Aid Circles を創っていく
+                      Aid Circles を創出する
                   </p>
                 </div>
               </div>
@@ -191,7 +191,7 @@ const About = () => {
                   "
                   ref={subtitleRef4}
                 >
-                  One for Aid —循環する支援
+                  Aid for One —循環する支援
                 </h3>
                 <div
                   className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] text-center mt-0 opacity-0"

@@ -203,12 +203,12 @@ const Brand = () => {
                 Brand Statement
               </span>
             </h2>
-            <div className="max-w-6xl mx-auto flex flex-col w-full px-4 lg:flex-row items-center gap-8 lg:gap-16">
-              <div className="w-full max-w-6xl mx-auto" ref={brandTextRef}>
+            <div className="max-w-6xl mx-auto flex flex-row flex-wrap w-full px-2 sm:px-4 items-start gap-4 sm:gap-6 lg:gap-16">
+              <div className="flex-1 min-w-[220px]" ref={brandTextRef}>
                 <div
                   className="
-                    text-sm  
-                    sm:text-base
+                    text-xs
+                    sm:text-sm
                     md:text-xl
                     lg:text-2xl
                     xl:text-3xl 
@@ -239,7 +239,7 @@ const Brand = () => {
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text={`One for Aid　\nー あなたの選択が、誰かの希望につながる仕組み`} 
+                      text={`Aid for One \n あなたの選択が、\n誰かの人生を変える仕組み`} 
                       isVisible={brandTextVisible}
                       delay={2200}
                     />
@@ -260,14 +260,17 @@ const Brand = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex-shrink-0 w-full lg:w-auto opacity-0" ref={brandLogoRef}>
+              <div
+                className="flex-shrink-0 w-28 xs:w-32 sm:w-36 md:w-44 lg:w-auto opacity-0 flex justify-center"
+                ref={brandLogoRef}
+              >
                 <img 
                   src={Logo} 
                   alt="8X Aid Circles Logo" 
                   className="
                     w-24 h-24
-                    sm:w-32 sm:h-32
-                    md:w-40 md:h-40
+                    sm:w-28 sm:h-28
+                    md:w-32 md:h-32
                     lg:w-56 lg:h-56
                     xl:w-72 xl:h-72
                     object-contain
