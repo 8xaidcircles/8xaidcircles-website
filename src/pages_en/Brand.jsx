@@ -1,10 +1,10 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import Layout from "../components/Layout";
+import Layout from "../components_en/Layout";
 import useIntersectionObserver, { useImageFadeUp, useTextAnimation } from "../hooks/useIntersectionObserver";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Logo from "../assets/logo.svg";
-import AnimatedText from "../components/AnimatedText";
+import AnimatedText from "../components_en/AnimatedText";
 
 const Brand = () => {
   const titleRef = useIntersectionObserver();
@@ -82,7 +82,7 @@ const Brand = () => {
               <span className="
                 bg-clip-text text-transparent 
                 bg-gradient-to-r from-pink-600 to-purple-600 font-bold">
-                創造を支え、支援へつなげる
+                Supporting creativity and connecting it to aid.
               </span>
               <br />
               <span className="
@@ -90,7 +90,7 @@ const Brand = () => {
                 sm:text-base
                 md:text-lg
               ">
-                収益の一部は持続可能な慈善活動のために活用されます
+                A portion of proceeds is used to support sustainable charitable activities.
               </span>
             </p>
             <div className="flex gap-4 opacity-0" ref={buttonRef}>
@@ -147,7 +147,7 @@ const Brand = () => {
                 break-words
                 "
               >
-                Code life,
+                Code life, 
                 <span className="
                   block md:inline
                   bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
@@ -173,7 +173,7 @@ const Brand = () => {
               "
               ref={titleRef4}
             >
-              ― 人生に、新しい光を。
+              — A new light for life.
             </p>
           </div>
         </section>
@@ -218,44 +218,44 @@ const Brand = () => {
                 >
                   <div className="mb-2">
                     <AnimatedText 
-                      text="8X Aid Circlesソーシャルブランドは" 
+                      text="8X Aid Circles' social brand" 
                       isVisible={brandTextVisible}
                       delay={0}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="支援 × 創造の力で" 
+                      text="uses the power of support × creativity" 
                       isVisible={brandTextVisible}
                       delay={800}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="人々の人生に新たな物語を描きます" 
+                      text="to craft new stories in people's lives." 
                       isVisible={brandTextVisible}
                       delay={1600}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text={`Aid for One ー \nあなたの選択が、\n誰かの人生を変える仕組み`} 
+                      text={`Aid for One ー \nYour choice can change someone's life.`} 
                       isVisible={brandTextVisible}
                       delay={2200}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="表現を通じて支援の価値を届ける" 
+                      text={"Delivering the value of support \nthrough creative expression:"}  
                       isVisible={brandTextVisible}
-                      delay={3400}
+                      delay={3800}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="それが8X Aid Circlesの使命です" 
+                      text="that is the mission of 8X Aid Circles." 
                       isVisible={brandTextVisible}
-                      delay={4200}
+                      delay={4800}
                     />
                   </div>
                 </div>
@@ -287,3 +287,4 @@ const Brand = () => {
 };
 
 export default Brand; 
+

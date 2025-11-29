@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { useNavigate, useLocation } from 'react-router-dom';
-import Layout from '../../components/Layout';
+import Layout from '../../components_en/Layout';
 import useIntersectionObserver, { useTextAnimation, useImageFadeUp } from '../../hooks/useIntersectionObserver';
-import AnimatedText from '../../components/AnimatedText';
-import LoadingScreen from '../../components/LoadingScreen';
+import AnimatedText from '../../components_en/AnimatedText';
+import LoadingScreen from '../../components_en/LoadingScreen';
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -120,7 +120,7 @@ const Home = () => {
                 opacity-0
               "
             >
-              8X Aid Circles は 「助け合いの輪（Aid Circles）」 を創ります
+              8X Aid Circles creates 'Circles of Support (Aid Circles)'
             </p>
             </div>
           </div>
@@ -169,51 +169,58 @@ const Home = () => {
                 >
                   <div className="mb-2">
                     <AnimatedText 
-                      text="「命のもとの平等」という理念のもと" 
+                      text="Guided by the principle of Equality at the Core of Life," 
                       isVisible={philosophyTextVisible}
                       delay={0}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="「助け合いの輪（Aid Circles）」を創出し" 
+                      text="8X Aid Circles creates 'Circles of Support (Aid Circles)'" 
                       isVisible={philosophyTextVisible}
                       delay={800}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="テクノロジーとソーシャルグッドの融合によって" 
+                      text="Through the fusion of technology and social good" 
                       isVisible={philosophyTextVisible}
                       delay={1600}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="すべての人々に希望ある未来を届けること" 
+                      text="we bring a hopeful future to everyone." 
                       isVisible={philosophyTextVisible}
-                      delay={2400}
+                      delay={2600}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="どんな立場にあっても、未来を切り拓く力は誰にでもある" 
-                      isVisible={philosophyTextVisible}
-                      delay={3200}
-                    />
-                  </div>
-                  <div className="mb-2">
-                    <AnimatedText 
-                      text="どんな状況でも、人生は書き換えることができる——" 
+                      text="Regardless of one's circumstances," 
                       isVisible={philosophyTextVisible}
                       delay={4000}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="これが8X Aid Circlesの信念であり、目指す社会の姿です" 
+                      text="everyone has the power to shape their future." 
                       isVisible={philosophyTextVisible}
-                      delay={4800}
+                      delay={4400}
+                    />
+                  </div>
+                  <div className="mb-2">
+                    <AnimatedText 
+                      text="No matter the situation, a life can be rewritten—" 
+                      isVisible={philosophyTextVisible}
+                      delay={5100}
+                    />
+                  </div>
+                  <div className="mb-2">
+                    <AnimatedText 
+                      text="this is 8X Aid Circles' belief and vision." 
+                      isVisible={philosophyTextVisible}
+                      delay={5500}
                     />
                   </div>
                 </h2>
@@ -281,7 +288,7 @@ const Home = () => {
         {/* <Section 4> */}
         <section className="min-h-screen flex flex-col justify-center items-center pt-16 md:pt-20 3xl:pt-24 4xl:pt-32 pb-8 md:pb-10 3xl:pb-12 4xl:pb-16">
           <div className="w-full max-w-12xl mx-auto px-4 sm:px-6 lg:px-8 3xl:px-12 4xl:px-16 w-full">
-            {/* Servicesタイトルを中央に配置 */}
+            {/* Services title centered */}
             <div className="w-full flex justify-center mb-12 3xl:mb-16 4xl:mb-20">
  
                 <h2
@@ -305,9 +312,9 @@ const Home = () => {
                 </h2>
     
             </div>
-            {/* 2カラムで横並びのグラデーションボーダーカード */}
+            {/* Two-column gradient border cards */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 3xl:gap-16 4xl:gap-20 w-full justify-center">
-              {/* テクノロジー支援カード */}
+              {/* Technology Support Card */}
               <div className="bg-white rounded-2xl 3xl:rounded-3xl p-8 md:p-10 3xl:p-12 4xl:p-16 w-full border-2 opacity-0" style={{borderImage: 'linear-gradient(90deg, #43e97b 0%, #38f9d7 50%, #fa8bff 100%) 1'}} ref={technologyRef}>
                 <h2
                   className="
@@ -320,7 +327,7 @@ const Home = () => {
                     text-[#1b1b1b]
                     mb-4 3xl:mb-6 4xl:mb-8
                   "
-                >テクノロジー事業</h2>
+                >Technology</h2>
                 <p
                   className="
                     text-base
@@ -332,10 +339,10 @@ const Home = () => {
                     leading-relaxed
                   "
                 >
-                  最新のデジタルツールを活用し、社会貢献の新しい形を創造します
+                  Creating new forms of social contribution by leveraging cutting-edge digital tools.
                 </p>
               </div>
-              {/* ブランド事業カード */}
+              {/* Brand Business Card */}
               <div className="bg-white rounded-2xl 3xl:rounded-3xl p-8 md:p-10 3xl:p-12 4xl:p-16 w-full border-2 opacity-0" style={{borderImage: 'linear-gradient(90deg, #43e97b 0%, #38f9d7 50%, #fa8bff 100%) 1'}} ref={brandRef}>
                 <h2
                   className="
@@ -348,7 +355,7 @@ const Home = () => {
                     text-[#1b1b1b]
                     mb-4 3xl:mb-6 4xl:mb-8
                   "
-                >ブランド事業</h2>
+                >Brand</h2>
                 <p
                   className="
                     text-base
@@ -360,7 +367,7 @@ const Home = () => {
                     leading-relaxed
                   "
                 >
-                  社会課題の解決に貢献するソーシャルブランドを展開します
+                  Developing social brands that contribute to solving societal challenges.
                 </p>
               </div>
             </div>
@@ -372,3 +379,4 @@ const Home = () => {
 };
 
 export default Home;
+

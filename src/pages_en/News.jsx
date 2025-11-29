@@ -1,0 +1,174 @@
+// pages/News.tsx
+import React, { useEffect, useRef, useState } from "react";
+import axios from "axios";
+import { Helmet } from 'react-helmet';
+import { useNavigate } from 'react-router-dom';
+import Layout from "../components_en/Layout";
+import useIntersectionObserver, { useImageFadeUp, useTextAnimation } from "../hooks/useIntersectionObserver";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
+export default function News() {
+  const navigate = useNavigate();
+  const newsRef = useIntersectionObserver();
+  const titleRef = useIntersectionObserver();
+  const [news, setNews] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+  const [openId, setOpenId] = useState(null);
+
+  useEffect(() => {
+    axios
+      .get("https://8xaidcircles.microcms.io/api/v1/news", {
+        headers: {
+          "X-MICROCMS-API-KEY": "31wRT5nYw3aSAMwrYQwXKMZEi1WbUD4SIoWq",
+        },
+      })
+      .then((res) => {
+        setNews(res.data.contents);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error(err);
+        setError("Failed to load news.");
+        setLoading(false);
+      });
+  }, []);
+
+  const handleClick = (id) => {
+    navigate(`/en/news/${id}`);
+  };
+
+  return (
+    <Layout>
+      <Helmet>
+        <title>News - 8X Aid Circles</title>
+        <meta name="description" content="8X Aid Circles - A Circle of Support, A World of Hope" />
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+      </Helmet>
+      <div className="font-sans min-h-screen">
+        {/* Section 1 */}
+        <section className="min-h-screen flex flex-col justify-center items-center w-full px-4 3xl:px-8 4xl:px-12 5xl:px-16">
+      
+            <div className="w-full max-w-12xl mx-auto flex flex-col justify-center items-center">
+              <h1
+                className="
+                  text-4xl
+                  sm:text-5xl
+                  md:text-6xl
+                  lg:text-7xl
+                  xl:text-8xl
+                  3xl:text-9xl
+                  4xl:text-10xl
+                  5xl:text-11xl
+                  font-bold
+                  text-center
+                  opacity-0
+                "
+                ref={titleRef}
+              >
+                <span className="
+                  bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)]
+                  bg-[length:200%_100%]
+                  bg-clip-text text-transparent
+                  animate-[AnimationTitle_5s_ease_infinite]"> News</span>
+              </h1>
+            </div>
+        
+        </section>
+        {/* Section 2 */}
+        <section className="min-h-screen flex flex-col justify-center items-center py-16 sm:py-24 md:py-32 3xl:py-40 4xl:py-48 opacity-0" ref={newsRef}>
+          <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 3xl:px-12 4xl:px-16 py-6 sm:py-8 md:py-10 3xl:py-12 4xl:py-16">
+            {loading && (
+              <p
+                className="
+                  text-base
+                  sm:text-base
+                  text-center
+                  text-gray-500
+                "
+              >
+                Loading...
+              </p>
+            )}
+            {error && (
+              <p
+                className="
+                  text-base
+                  sm:text-base
+                  text-center
+                  text-red-500
+                "
+              >
+                {error}
+              </p>
+            )}
+            <ul className="space-y-4 sm:space-y-6 md:space-y-8">
+              {news.map((item) => (
+                <li
+                  key={item.id}
+                  className="bg-[#f6f8fa] rounded-xl sm:rounded-2xl px-4 sm:px-6 md:px-8 py-4 sm:py-6 md:py-8 flex flex-col cursor-pointer transition-shadow hover:shadow-md"
+                  onClick={() => handleClick(item.id)}
+                >
+                  <div className="flex flex-col md:flex-row md:items-center md:space-x-4 lg:space-x-8 w-full">
+                    <span
+                      className="
+                        text-base
+                        sm:text-base
+                        md:text-lg
+                        font-semibold
+                        text-[#222]
+                        w-24
+                        sm:w-32
+                        mb-2
+                        md:mb-0
+                      "
+                    >
+                      {item.publishedAt.slice(0, 10).replace(/-/g, ".")}
+                    </span>
+                    <span
+                      className="
+                        inline-block
+                        border
+                        border-[#1da1f2]
+                        text-[#1da1f2]
+                        rounded-full
+                        px-3
+                        sm:px-4
+                        md:px-6
+                        py-1
+                        text-base
+                        sm:text-base
+                        font-semibold
+                        mr-2
+                        sm:mr-4
+                        mb-2
+                        md:mb-0
+                        whitespace-nowrap
+                      "
+                    >
+                      Announcement
+                    </span>
+                    <span
+                      className="
+                        text-base
+                        sm:text-base
+                        md:text-lg
+                        text-[#222]
+                        font-medium
+                        flex-1
+                      "
+                    >
+                      {item.title}
+                    </span>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      </div>
+    </Layout>
+  );
+}
+

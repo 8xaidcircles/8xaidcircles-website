@@ -28,3 +28,4 @@ const Layout = ({ children, fullWidthContent }) => (
 );
 
 export default Layout;
+

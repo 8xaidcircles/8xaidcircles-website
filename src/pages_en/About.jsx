@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import Layout from "../components/Layout";
+import Layout from "../components_en/Layout";
 import useIntersectionObserver, { useImageFadeUp, useTextAnimation } from "../hooks/useIntersectionObserver";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
@@ -23,6 +23,8 @@ const About = () => {
   const textRef5 = useIntersectionObserver();
   const textRef6 = useIntersectionObserver();
   const textRef7 = useIntersectionObserver();
+  const textRef8 = useIntersectionObserver();
+  const textRef9 = useIntersectionObserver();
 
   return (
     <Layout>
@@ -76,21 +78,37 @@ const About = () => {
             </div>
             <div className="w-full flex flex-col items-center">
               <div className="max-w-10xl w-full text-center mx-auto">
-                <h3 className="mt-8 3xl:mt-12 4xl:mt-16 mb-12 3xl:mb-16 4xl:mb-20 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef}>
-                  命のもとの平等を<br />支援の仕組みに
+                <h3
+                  className="
+                    text-xl
+                    sm:text-2xl
+                    md:text-3xl
+                    lg:text-4xl
+                    xl:text-5xl
+                    3xl:text-6xl
+                    4xl:text-7xl
+                    5xl:text-8xl
+                    font-bold
+                    mb-8 md:mb-10 lg:mb-12 xl:mb-14 2xl:mb-16 3xl:mb-16 4xl:mb-20
+                    leading-tight
+                    opacity-0
+                  "
+                  ref={subtitleRef}
+                >  
+                   To embed equality at the core of life<br />into systems of support.
                 </h3>
                 <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef1}>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                   境遇に関わらず誰もが可能性を持ち
+                   Through the power of technology,
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                   尊厳を持って生きられるよう
+                   we create sustainable support structures
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                    テクノロジーの力で
+                   so that everyone—regardless of their circumstances—
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                    持続可能な支援の仕組みを創る
+                   can live with dignity and realize their potential.
                   </p>
                 </div>
               </div>
@@ -133,16 +151,13 @@ const About = () => {
                 </h3>
                 <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef2}>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                      命に境界のない世界を創る
+                  To build a world where life knows no boundaries.
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                      誰もが人生を自由に創造できる未来
+                  A future where everyone can freely create their own path in life.
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                      国や立場を越えて支え合う
-                  </p>
-                  <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                      助け合いの輪を広げる
+                  To foster Aid Circles that transcend nations, positions, and circumstances.
                   </p>
                 </div>
               </div>
@@ -165,11 +180,27 @@ const About = () => {
             <div className="w-full flex flex-col items-center">
               <div className="max-w-8xl w-full text-center mx-auto">
                 <div className="mb-8 3xl:mb-12 4xl:mb-16">
-                    <h3 className="mt-8 3xl:mt-12 4xl:mt-16 mb-4 3xl:mb-6 4xl:mb-8 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef3}>
-                    命のもとの平等
+                <h3
+                  className="
+                    text-xl
+                    sm:text-2xl
+                    md:text-3xl
+                    lg:text-4xl
+                    xl:text-5xl
+                    3xl:text-6xl
+                    4xl:text-7xl
+                    5xl:text-8xl
+                    font-bold
+                    mb-2 3xl:mb-3 4xl:mb-4
+                    leading-tight
+                    opacity-0
+                  "
+                  ref={subtitleRef3}
+                >
+                    Equality at the Core of Life
                   </h3>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef3}>
-                   すべての命は等しく尊く、誰もがかけがえのない存在である
+                  Every life is equally precious, and each person is irreplaceable.
                   </div>
                 </div>
 
@@ -191,37 +222,78 @@ const About = () => {
                   "
                   ref={subtitleRef4}
                 >
-                  Aid for One —循環する支援
+                  Aid for One — Circulating Support
                 </h3>
                 <div
                   className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] text-center mt-0 opacity-0"
                   ref={textRef4}
                 >
-                  1つの創作が、1つの支援を生む
+                  One creation generates one act of support.
                 </div>
                 <div
                   className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] text-center mt-1 opacity-0"
                   ref={textRef5}
                 >
-                  支援が一過性で終わらないよう事業と支援を両立させる持続可能な仕組みを大切にする
+                  We value sustainable systems that integrate business and aid
+                </div>
+                <div
+                  className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] text-center mt-1 opacity-0"
+                  ref={textRef6}
+                >
+                  so that support does not end as a one-time effort.
                 </div>
                 </div>
 
                 <div className="mb-8 3xl:mb-12 4xl:mb-16">
-                    <h3 className="mt-8 3xl:mt-12 4xl:mt-16 mb-4 3xl:mb-6 4xl:mb-8 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef5}>
-                    テクノロジーと善意の融合
-                  </h3>
-                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef6}>
-                    テクノロジーを活用し善意の力を拡張する新しい支援のかたちを実現する
-                  </div>
-                </div>
-
-                <div className="mb-8 3xl:mb-12 4xl:mb-16">
-                  <h3 className="mt-8 3xl:mt-12 4xl:mt-16 mb-4 3xl:mb-6 4xl:mb-8 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef6}>
-                    枠を越えた挑戦
+                <h3
+                  className="
+                    text-xl
+                    sm:text-2xl
+                    md:text-3xl
+                    lg:text-4xl
+                    xl:text-5xl
+                    3xl:text-6xl
+                    4xl:text-7xl
+                    5xl:text-8xl
+                    font-bold
+                    mb-2 3xl:mb-3 4xl:mb-4
+                    leading-tight
+                    opacity-0
+                  "
+                  ref={subtitleRef5}
+                >
+                    Fusion of Technology and Goodwill
                   </h3>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef7}>
-                    国境や立場を越え「Aid without border, Hope without limits.」の精神で行動する
+                  We harness technology to extend the power of goodwill
+                </div>
+                <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef8}>
+                  and realize new forms of support.
+                </div>
+                </div>
+
+                <div className="mb-8 3xl:mb-12 4xl:mb-16">
+                <h3
+                  className="
+                    text-xl
+                    sm:text-2xl
+                    md:text-3xl
+                    lg:text-4xl
+                    xl:text-5xl
+                    3xl:text-6xl
+                    4xl:text-7xl
+                    5xl:text-8xl
+                    font-bold
+                    mb-2 3xl:mb-3 4xl:mb-4
+                    leading-tight
+                    opacity-0
+                  "
+                  ref={subtitleRef6}
+                >
+                    Challenging Beyond Boundaries
+                  </h3>
+                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef9}>
+                   We act in the spirit of "Aid Without Borders, Hope Without Limits"<br />— transcending borders and limitations.
                   </div>
                 </div>
               </div>
@@ -234,3 +306,4 @@ const About = () => {
 };
 
 export default About;
+
