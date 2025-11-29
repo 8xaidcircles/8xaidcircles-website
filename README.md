@@ -148,10 +148,23 @@ yarn build
 Renderにデプロイする際は、以下の設定を推奨します。
 
 *   **Build Command:** `npm install && npm run build`
-*   **Start Command:** `npm run preview` # Render の設定に合わせて修正が必要な場合があります
 *   **Publish Directory:** `dist`
+*   **Static Site:** 静的サイトとして設定
 
-Renderは自動でビルドを行い、公開します。
+### SPAルーティングの設定
+
+React Routerを使用しているため、Renderのダッシュボードで以下の設定が必要です：
+
+1. Renderのダッシュボードで、静的サイトの設定を開く
+2. **「Clean URLs」**または**「SPA Mode」**を有効にする
+3. または、**「Redirects」**セクションで以下のリダイレクトルールを追加：
+   - Source: `/*`
+   - Destination: `/index.html`
+   - Status Code: `200`
+
+これにより、`/privacy-policy`などの直接URLアクセスでも正しく動作します。
+
+**注意:** `_redirects`ファイルは`public`ディレクトリに作成済みで、ビルド時に`dist`にコピーされますが、Renderの静的サイトではダッシュボードでの設定も必要です。
 
 ---
 

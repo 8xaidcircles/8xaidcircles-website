@@ -1,0 +1,5 @@
+static_sites:
+  - name: 8xaidcircles-website
+    buildCommand: npm install && npm run build
+    publishPath: ./dist
+
