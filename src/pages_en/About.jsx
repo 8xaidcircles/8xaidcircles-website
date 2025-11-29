@@ -95,11 +95,11 @@ const About = () => {
                   "
                   ref={subtitleRef}
                 >  
-                   To embed equality at the core of life<br />into systems of support.
+                   One Health —<br />Contributing to Life
                 </h3>
                 <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef1}>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                   Through the power of technology,
+                  Guided by the belief in the fundamental equality of all life,the power of technology,
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
                    we create sustainable support structures
@@ -262,13 +262,13 @@ const About = () => {
                   "
                   ref={subtitleRef5}
                 >
-                    Fusion of Technology and Goodwill
+                    Shining Light on Overlooked Areas
                   </h3>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef7}>
-                  We harness technology to extend the power of goodwill
+                  We focus on fields that receive little attention<br />and on people or issues where support is hardest to reach.
                 </div>
                 <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef8}>
-                  and realize new forms of support.
+                  Using technology, we create new forms of aid<br />that amplify the power of goodwill.
                 </div>
                 </div>
 

@@ -169,28 +169,28 @@ const Home = () => {
                 >
                   <div className="mb-2">
                     <AnimatedText 
-                      text="「命のもとの平等」という理念のもと" 
+                      text="One Health — 生命に貢献する" 
                       isVisible={philosophyTextVisible}
                       delay={0}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="「助け合いの輪（Aid Circles）」を創出し" 
+                      text="人間・動物・自然を生命系として捉え" 
                       isVisible={philosophyTextVisible}
                       delay={800}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="テクノロジーとソーシャルグッドの融合によって" 
+                      text="科学・テクノロジー・共感を通じて" 
                       isVisible={philosophyTextVisible}
                       delay={1600}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="すべての人々に希望ある未来を届けること" 
+                      text="すべての生命に希望ある未来を届けること" 
                       isVisible={philosophyTextVisible}
                       delay={2400}
                     />

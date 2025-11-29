@@ -225,14 +225,14 @@ const Brand = () => {
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="支援 × 創造の力で" 
+                      text="支援 × 創造 × 科学の力で" 
                       isVisible={brandTextVisible}
                       delay={800}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="人々の人生に新たな物語を描きます" 
+                      text={`人間・動物・自然——\nすべての生命に新たな物語を描きます`}  
                       isVisible={brandTextVisible}
                       delay={1600}
                     />
@@ -241,21 +241,21 @@ const Brand = () => {
                     <AnimatedText 
                       text={`Aid for One ー \nあなたの選択が、\n誰かの人生を変える仕組み`} 
                       isVisible={brandTextVisible}
-                      delay={2200}
+                      delay={2600}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
                       text="表現を通じて支援の価値を届ける" 
                       isVisible={brandTextVisible}
-                      delay={3400}
+                      delay={4700}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
                       text="それが8X Aid Circlesの使命です" 
                       isVisible={brandTextVisible}
-                      delay={4200}
+                      delay={5000}
                     />
                   </div>
                 </div>

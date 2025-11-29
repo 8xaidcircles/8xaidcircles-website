@@ -169,28 +169,28 @@ const Home = () => {
                 >
                   <div className="mb-2">
                     <AnimatedText 
-                      text="Guided by the principle of Equality at the Core of Life," 
+                      text="One Health — Contributing to All Life" 
                       isVisible={philosophyTextVisible}
                       delay={0}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="8X Aid Circles creates 'Circles of Support (Aid Circles)'" 
+                      text="We view humans, animals, and nature as interconnected life systems." 
                       isVisible={philosophyTextVisible}
                       delay={800}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="Through the fusion of technology and social good" 
+                      text="Through science, technology, and empathy," 
                       isVisible={philosophyTextVisible}
                       delay={1600}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="we bring a hopeful future to everyone." 
+                      text="we bring a hopeful future to every form of life." 
                       isVisible={philosophyTextVisible}
                       delay={2600}
                     />

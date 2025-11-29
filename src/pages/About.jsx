@@ -23,6 +23,7 @@ const About = () => {
   const textRef5 = useIntersectionObserver();
   const textRef6 = useIntersectionObserver();
   const textRef7 = useIntersectionObserver();
+  const textRef8 = useIntersectionObserver();
 
   return (
     <Layout>
@@ -76,12 +77,29 @@ const About = () => {
             </div>
             <div className="w-full flex flex-col items-center">
               <div className="max-w-10xl w-full text-center mx-auto">
-                <h3 className="mt-8 3xl:mt-12 4xl:mt-16 mb-12 3xl:mb-16 4xl:mb-20 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef}>
-                  命のもとの平等を<br />支援の仕組みに
+              <h3
+                  className="
+                    text-xl
+                    sm:text-2xl
+                    md:text-3xl
+                    lg:text-4xl
+                    xl:text-5xl
+                    3xl:text-6xl
+                    4xl:text-7xl
+                    5xl:text-8xl
+                    font-bold
+                    mb-8 md:mb-10 lg:mb-12 xl:mb-14 2xl:mb-16 3xl:mb-16 4xl:mb-20
+                    leading-tight
+                    opacity-0
+                  " ref={subtitleRef}>
+                One Health — <br />生命に貢献する
                 </h3>
                 <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef1}>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                   境遇に関わらず誰もが可能性を持ち
+                  命のもとの平等という信念のもと
+                  </p>
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6">
+                  境遇に関わらず誰もが可能性を持ち
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
                    尊厳を持って生きられるよう
@@ -137,6 +155,9 @@ const About = () => {
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
                       誰もが人生を自由に創造できる未来
+                  </p>
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6">
+                      人間・動物・自然が共に生きる社会
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
                       国や立場を越えて支え合う
@@ -209,9 +230,12 @@ const About = () => {
 
                 <div className="mb-8 3xl:mb-12 4xl:mb-16">
                     <h3 className="mt-8 3xl:mt-12 4xl:mt-16 mb-4 3xl:mb-6 4xl:mb-8 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef5}>
-                    テクノロジーと善意の融合
+                    見過ごされた領域にこそ、光を
                   </h3>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef6}>
+                    誰も目を向けない領域、届きにくい支援にこそ力を注ぐ
+                  </div>
+                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef7}>
                     テクノロジーを活用し善意の力を拡張する新しい支援のかたちを実現する
                   </div>
                 </div>
@@ -220,7 +244,7 @@ const About = () => {
                   <h3 className="mt-8 3xl:mt-12 4xl:mt-16 mb-4 3xl:mb-6 4xl:mb-8 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl font-extrabold leading-tight tracking-wide opacity-0" ref={subtitleRef6}>
                     枠を越えた挑戦
                   </h3>
-                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef7}>
+                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef8}>
                     国境や立場を越え「Aid without border, Hope without limits.」の精神で行動する
                   </div>
                 </div>

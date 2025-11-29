@@ -218,21 +218,21 @@ const Brand = () => {
                 >
                   <div className="mb-2">
                     <AnimatedText 
-                      text="8X Aid Circles' social brand" 
+                      text="8X Aid Circles is a social brand that" 
                       isVisible={brandTextVisible}
                       delay={0}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="uses the power of support × creativity" 
+                      text="uses the power of support × creativity × science" 
                       isVisible={brandTextVisible}
                       delay={800}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="to craft new stories in people's lives." 
+                      text="to craft new stories for all life." 
                       isVisible={brandTextVisible}
                       delay={1600}
                     />
@@ -248,14 +248,14 @@ const Brand = () => {
                     <AnimatedText 
                       text={"Delivering the value of support \nthrough creative expression:"}  
                       isVisible={brandTextVisible}
-                      delay={3800}
+                      delay={4500}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
                       text="that is the mission of 8X Aid Circles." 
                       isVisible={brandTextVisible}
-                      delay={4800}
+                      delay={6600}
                     />
                   </div>
                 </div>
