@@ -190,7 +190,7 @@ const Home = () => {
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="we bring a hopeful future to every form of life." 
+                      text="we bring a hopeful future to the lives we share this world with." 
                       isVisible={philosophyTextVisible}
                       delay={2600}
                     />

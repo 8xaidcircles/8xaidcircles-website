@@ -300,6 +300,10 @@ const PrivacyPolicy = () => {
                 <strong>A8.net</strong>（株式会社ファンコミュニケーションズ）<br />
                 詳細: <a href="https://www.a8.net/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://www.a8.net/</a>
               </li>
+              <li>
+                <strong>アクセストレード</strong>（株式会社インタースペース）<br />
+                詳細: <a href="https://www.accesstrade.ne.jp" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://www.accesstrade.ne.jp</a>
+              </li>
             </ul>
             <p className="mt-4 3xl:mt-6 4xl:mt-8">
               お客様がアフィリエイト広告をクリックし、外部サイトで商品やサービスを購入された場合、当社は成果報酬を受け取ることがあります。これによりお客様に追加費用が発生することはありません。

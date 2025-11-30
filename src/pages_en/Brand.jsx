@@ -232,14 +232,14 @@ const Brand = () => {
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="to craft new stories for all life." 
+                      text="to craft new stories for life." 
                       isVisible={brandTextVisible}
                       delay={1600}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text={`Aid for One ー \nYour choice can change someone's life.`} 
+                      text={`Aid for One ー \nYour choice can change someone's future.`} 
                       isVisible={brandTextVisible}
                       delay={2200}
                     />

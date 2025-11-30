@@ -88,9 +88,15 @@ const PrivacyPolicy = () => {
             <p className="mt-4 3xl:mt-6 4xl:mt-8">
               The Company participates in the following affiliate programs. As a result, third parties may provide contents and advertisements, collect information directly from visitors, and place or recognize cookies in visitors' browsers. By disabling cookies, the User may refuse collection of these information. Please check your browser settings for details.
             </p>
-            <p className="mt-4 3xl:mt-6 4xl:mt-8">
-              <strong>A8.net</strong>
-            </p>
+            <ul className="list-disc ml-6 3xl:ml-8 4xl:ml-10 mt-4 3xl:mt-6 4xl:mt-8 space-y-2 3xl:space-y-3 4xl:space-y-4">
+              <li>
+                <strong>A8.net</strong> (Fan Communications Inc.)
+              </li>
+              <li>
+                <strong>AccessTrade</strong> (Interspace Co., Ltd.)<br />
+                Details: <a href="https://www.accesstrade.ne.jp" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://www.accesstrade.ne.jp</a>
+              </li>
+            </ul>
           </section>
 
           <hr className="border-gray-300" />
