@@ -190,7 +190,7 @@ const Home = () => {
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="ともに生きる生命に希望ある未来を届けること" 
+                      text="共に生きる生命に希望ある未来を届けること" 
                       isVisible={philosophyTextVisible}
                       delay={2400}
                     />

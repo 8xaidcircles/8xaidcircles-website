@@ -232,7 +232,7 @@ const Brand = () => {
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text={`人間・動物・自然——\nすべての生命に新たな物語を描きます`}  
+                      text={`人間・動物・自然——\n共に生きるの生命に新たな物語を描きます`}  
                       isVisible={brandTextVisible}
                       delay={1600}
                     />
