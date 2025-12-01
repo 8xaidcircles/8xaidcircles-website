@@ -38,8 +38,24 @@ const Home = () => {
       <Helmet>
         <title>8X Aid Circles</title>
         <meta name="description" content="8X Aid Circles - A Circle of Support, A World of Hope" />
+        <meta property="og:image" content="https://8xaidcircles.com/logo512.png" />
+        <meta property="og:image:width" content="512" />
+        <meta property="og:image:height" content="512" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:image" content="https://8xaidcircles.com/logo512.png" />
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "8X Aid Circles",
+            "url": "https://8xaidcircles.com",
+            "logo": "https://8xaidcircles.com/logo512.png",
+            "description": "8X Aid Circles - A Circle of Support, A World of Hope",
+            "sameAs": []
+          })}
+        </script>
       </Helmet>
 
       <div className="font-sans">
