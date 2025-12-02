@@ -229,19 +229,19 @@ const About = () => {
                 </h3>
                 <div
                   className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] text-center mt-0 opacity-0"
-                  ref={textRef4}
+                  ref={textRef5}
                 >
                   One creation generates one act of support.
                 </div>
                 <div
                   className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] text-center mt-1 opacity-0"
-                  ref={textRef5}
+                  ref={textRef6}
                 >
                   We value sustainable systems that integrate business and aid
                 </div>
                 <div
                   className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] text-center mt-1 opacity-0"
-                  ref={textRef6}
+                  ref={textRef7}
                 >
                   so that support does not end as a one-time effort.
                 </div>
@@ -267,10 +267,10 @@ const About = () => {
                 >
                     Shining Light on Overlooked Areas
                   </h3>
-                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef7}>
+                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef8}>
                   We focus on fields that receive little attention<br />and on people or issues where support is hardest to reach.
                 </div>
-                <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef8}>
+                <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef9}>
                   Using technology, we create new forms of aid<br />that amplify the power of goodwill.
                 </div>
                 </div>
@@ -295,7 +295,7 @@ const About = () => {
                 >
                     Challenging Beyond Boundaries
                   </h3>
-                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef9}>
+                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef10}>
                    We act in the spirit of "Aid Without Borders, Hope Without Limits"<br />— transcending borders and limitations.
                   </div>
                 </div>
