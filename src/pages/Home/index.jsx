@@ -206,7 +206,7 @@ const Home = () => {
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="共に生きる生命に希望ある未来を届けること" 
+                      text="共に生きるすべての存在に希望ある未来を届けること" 
                       isVisible={philosophyTextVisible}
                       delay={2400}
                     />
@@ -227,7 +227,7 @@ const Home = () => {
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="これが8X Aid Circlesの信念であり、目指す社会の姿です" 
+                      text="これが8X Aid Circlesの信念であり、目指すVisionです" 
                       isVisible={philosophyTextVisible}
                       delay={4800}
                     />
