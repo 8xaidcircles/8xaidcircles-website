@@ -25,6 +25,7 @@ const About = () => {
   const textRef7 = useIntersectionObserver();
   const textRef8 = useIntersectionObserver();
   const textRef9 = useIntersectionObserver();
+  const textRef10 = useIntersectionObserver();
 
   return (
     <Layout>
