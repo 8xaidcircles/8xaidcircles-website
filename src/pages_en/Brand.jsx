@@ -225,7 +225,7 @@ const Brand = () => {
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="uses the power of support × creativity × science" 
+                      text="uses the power of support × creativity" 
                       isVisible={brandTextVisible}
                       delay={800}
                     />
