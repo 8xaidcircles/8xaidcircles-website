@@ -15,8 +15,8 @@ const Footer = () => (
             className="h-8 md:h-9 lg:h-10 xl:h-10 2xl:h-10 3xl:h-10 4xl:h-12 5xl:h-16 mb-2 md:mb-3 3xl:mb-4 4xl:mb-6"
           />
           <p className="text-gray-600 text-xs sm:text-sm lg:text-base xl:text-lg 2xl:text-lg 3xl:text-lg 4xl:text-xl 5xl:text-2xl leading-relaxed text-left">
-            命のもとの平等を目指して、<br />
-            助け合いの輪を広げる
+            Aid Without Borders,<br />
+            Hope Without Limits.
           </p>
         </div>
 

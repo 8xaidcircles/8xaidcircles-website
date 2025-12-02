@@ -99,16 +99,16 @@ const About = () => {
                 </h3>
                 <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef1}>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                  Guided by the belief in the fundamental equality of all life,the power of technology,
+                  Guided by the belief in the fundamental equality of all life,
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                   we create sustainable support structures
+                  the power of technology, we create sustainable support structures
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                   so that everyone—regardless of their circumstances—
+                   so that everyone — regardless of their circumstances
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                   can live with dignity and realize their potential.
+                   — can live with dignity and realize their potential.
                   </p>
                 </div>
               </div>
@@ -200,7 +200,10 @@ const About = () => {
                     Equality at the Core of Life
                   </h3>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef3}>
-                  Every life is equally precious, and each person is irreplaceable.
+                    Every life is equally precious, and each person is irreplaceable.
+                  </div>
+                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef4}>
+                    We prioritize actions that put life first above all else.
                   </div>
                 </div>
 
