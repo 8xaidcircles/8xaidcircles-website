@@ -51,7 +51,12 @@ const Home = () => {
             "@type": "Organization",
             "name": "8X Aid Circles",
             "url": "https://8xaidcircles.com",
-            "logo": "https://8xaidcircles.com/logo512.png",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://8xaidcircles.com/logo512.png",
+              "width": 512,
+              "height": 512
+            },
             "description": "8X Aid Circles - A Circle of Support, A World of Hope",
             "sameAs": []
           })}
