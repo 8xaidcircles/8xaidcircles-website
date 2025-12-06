@@ -55,8 +55,10 @@ const Home = () => {
               "@type": "ImageObject",
               "url": "https://8xaidcircles.com/logo512.png",
               "width": 512,
-              "height": 512
+              "height": 512,
+              "contentUrl": "https://8xaidcircles.com/logo512.png"
             },
+            "image": "https://8xaidcircles.com/logo512.png",
             "description": "8X Aid Circles - A Circle of Support, A World of Hope",
             "sameAs": []
           })}
