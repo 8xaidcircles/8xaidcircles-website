@@ -38,6 +38,14 @@ export default function NewsDetail() {
 
   return (
     <Layout>
+      <Helmet>
+        <html lang="ja" />
+        <title>News Detail - 8X Aid Circles</title>
+        <meta name="description" content="8X Aid Circles News Detail" />
+        <link rel="alternate" hreflang="ja" href={`https://8xaidcircles.com/news/${id}`} />
+        <link rel="alternate" hreflang="en" href={`https://8xaidcircles.com/en/news/${id}`} />
+        <link rel="alternate" hreflang="x-default" href={`https://8xaidcircles.com/news/${id}`} />
+      </Helmet>
       <div className="
       min-h-screen 
       font-sans">

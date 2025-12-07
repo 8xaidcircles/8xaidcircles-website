@@ -1,9 +1,18 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Layout from '../components_en/Layout';
 
 const PrivacyPolicy = () => {
   return (
     <Layout>
+      <Helmet>
+        <html lang="en" />
+        <title>Privacy Policy - 8X Aid Circles</title>
+        <meta name="description" content="8X Aid Circles Privacy Policy" />
+        <link rel="alternate" hreflang="ja" href="https://8xaidcircles.com/privacy-policy" />
+        <link rel="alternate" hreflang="en" href="https://8xaidcircles.com/en/privacy-policy" />
+        <link rel="alternate" hreflang="x-default" href="https://8xaidcircles.com/privacy-policy" />
+      </Helmet>
       <div className="bg-white min-h-screen flex-grow">
       <div className="max-w-8xl mx-auto px-4 3xl:px-8 4xl:px-12 5xl:px-16 pt-32 3xl:pt-40 4xl:pt-48 pb-12 3xl:pb-16 4xl:pb-20">
         <h1 className="text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl font-bold mb-8 3xl:mb-12 4xl:mb-16">Privacy Policy</h1>

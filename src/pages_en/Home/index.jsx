@@ -36,8 +36,12 @@ const Home = () => {
   return (
     <Layout>
       <Helmet>
+        <html lang="en" />
         <title>8X Aid Circles</title>
         <meta name="description" content="8X Aid Circles - A Circle of Support, A World of Hope" />
+        <link rel="alternate" hreflang="ja" href="https://8xaidcircles.com/" />
+        <link rel="alternate" hreflang="en" href="https://8xaidcircles.com/en" />
+        <link rel="alternate" hreflang="x-default" href="https://8xaidcircles.com/" />
         <meta property="og:image" content="https://8xaidcircles.com/logo512.png" />
         <meta property="og:image:width" content="512" />
         <meta property="og:image:height" content="512" />

@@ -1,9 +1,18 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Layout from '../components/Layout';
 
 const Contact = () => {
   return (
     <Layout>
+      <Helmet>
+        <html lang="ja" />
+        <title>Contact - 8X Aid Circles</title>
+        <meta name="description" content="Contact 8X Aid Circles" />
+        <link rel="alternate" hreflang="ja" href="https://8xaidcircles.com/contact" />
+        <link rel="alternate" hreflang="en" href="https://8xaidcircles.com/en/contact" />
+        <link rel="alternate" hreflang="x-default" href="https://8xaidcircles.com/contact" />
+      </Helmet>
       <div className="max-w-12xl w-full mx-auto px-2 sm:px-6 lg:px-8 3xl:px-12 4xl:px-16 5xl:px-20 pt-16 sm:pt-24 md:pt-32 3xl:pt-40 4xl:pt-48 pb-8 sm:pb-12 3xl:pb-16 4xl:pb-20">
         <div className="bg-white rounded-lg sm:rounded-xl 3xl:rounded-2xl shadow-md p-2 sm:p-6 3xl:p-8 4xl:p-12">
           <iframe

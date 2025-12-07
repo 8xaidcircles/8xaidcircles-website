@@ -41,8 +41,12 @@ export default function News() {
   return (
     <Layout>
       <Helmet>
+        <html lang="ja" />
         <title>News - 8X Aid Circles</title>
         <meta name="description" content="8X Aid Circles - A Circle of Support, A World of Hope" />
+        <link rel="alternate" hreflang="ja" href="https://8xaidcircles.com/news" />
+        <link rel="alternate" hreflang="en" href="https://8xaidcircles.com/en/news" />
+        <link rel="alternate" hreflang="x-default" href="https://8xaidcircles.com/news" />
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
       </Helmet>

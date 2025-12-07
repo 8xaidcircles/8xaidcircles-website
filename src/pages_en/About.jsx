@@ -30,8 +30,12 @@ const About = () => {
   return (
     <Layout>
       <Helmet>
+        <html lang="en" />
         <title>About - 8X Aid Circles</title>
         <meta name="description" content="Brand 8X Aid Circles" />
+        <link rel="alternate" hreflang="ja" href="https://8xaidcircles.com/about" />
+        <link rel="alternate" hreflang="en" href="https://8xaidcircles.com/en/about" />
+        <link rel="alternate" hreflang="x-default" href="https://8xaidcircles.com/about" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
       </Helmet>
