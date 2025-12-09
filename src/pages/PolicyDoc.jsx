@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">運営者</h2>
             <p>
-              本サイト (https://8xaidcircles.com) および当社が提供するサービスの運営者は以下のとおりです。
+              本サイト (https://8xaidcircles.com) および当事業者が提供するサービスの運営者は以下のとおりです。
             </p>
             <div className="mt-4 3xl:mt-6 4xl:mt-8 space-y-2 3xl:space-y-3 4xl:space-y-4">
               <p><strong>屋号</strong>: 8X Aid Circles</p>
@@ -30,7 +30,7 @@ const PrivacyPolicy = () => {
               <p><strong>お問い合わせ先</strong>: 8xaidcircles@gmail.com</p>
             </div>
             <p className="mt-4 3xl:mt-6 4xl:mt-8">
-              本プライバシーポリシー内では、上記運営者を「当社」と表記します。
+              本プライバシーポリシー内では、上記運営者を「当事業者」と表記します。
             </p>
           </section>
 
@@ -40,13 +40,13 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">適用範囲</h2>
             <p>
-              当社は、以下のサービスにおけるお客様の個人情報の取扱いについて、本プライバシーポリシーを定めます。
+              当事業者は、以下のサービスにおけるお客様の個人情報の取扱いについて、本プライバシーポリシーを定めます。
             </p>
             <p className="mt-4 3xl:mt-6 4xl:mt-8"><strong>対象サービス:</strong></p>
             <ul className="list-disc ml-6 3xl:ml-8 4xl:ml-10 mt-2 3xl:mt-4 4xl:mt-6 space-y-1 3xl:space-y-2 4xl:space-y-3">
               <li>事業サイト (https://8xaidcircles.com)</li>
               <li>検索サイト「8Wheel」 (https://8wheel.jp/)</li>
-              <li>その他当社が提供するサービス</li>
+              <li>その他当事業者が提供するサービス</li>
             </ul>
           </section>
 
@@ -55,7 +55,7 @@ const PrivacyPolicy = () => {
           {/* お客様から取得する情報 */}
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">お客様から取得する情報</h2>
-            <p>当社は、お客様から以下の情報を取得します。</p>
+            <p>当事業者は、お客様から以下の情報を取得します。</p>
 
             <h3 className="text-lg 3xl:text-xl 4xl:text-2xl font-semibold mt-6 3xl:mt-8 4xl:mt-10 mb-3 3xl:mb-4 4xl:mb-5">基本情報</h3>
             <ul className="list-disc ml-6 3xl:ml-8 4xl:ml-10 space-y-1 3xl:space-y-2 4xl:space-y-3">
@@ -72,7 +72,7 @@ const PrivacyPolicy = () => {
 
             <h3 className="text-lg 3xl:text-xl 4xl:text-2xl font-semibold mt-6 3xl:mt-8 4xl:mt-10 mb-3 3xl:mb-4 4xl:mb-5">サイト利用情報</h3>
             <ul className="list-disc ml-6 3xl:ml-8 4xl:ml-10 space-y-1 3xl:space-y-2 4xl:space-y-3">
-              <li>当社ウェブサイトの滞在時間、入力履歴、購買履歴等の当社ウェブサイトにおけるお客様の行動履歴</li>
+              <li>当事業者ウェブサイトの滞在時間、入力履歴、購買履歴等の当事業者ウェブサイトにおけるお客様の行動履歴</li>
             </ul>
 
             <h3 className="text-lg 3xl:text-xl 4xl:text-2xl font-semibold mt-6 3xl:mt-8 4xl:mt-10 mb-3 3xl:mb-4 4xl:mb-5">検索サービスに関する情報</h3>
@@ -88,22 +88,22 @@ const PrivacyPolicy = () => {
           {/* お客様の情報を利用する目的 */}
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">お客様の情報を利用する目的</h2>
-            <p>当社は、お客様から取得した情報を、以下の目的のために利用します。</p>
+            <p>当事業者は、お客様から取得した情報を、以下の目的のために利用します。</p>
 
             <h3 className="text-lg 3xl:text-xl 4xl:text-2xl font-semibold mt-6 3xl:mt-8 4xl:mt-10 mb-3 3xl:mb-4 4xl:mb-5">サービス提供・運営</h3>
             <ol className="list-decimal ml-6 3xl:ml-8 4xl:ml-10 space-y-1 3xl:space-y-2 4xl:space-y-3">
-              <li>当社サービスに関する登録の受付、お客様の本人確認、認証のため</li>
-              <li>お客様の当社サービスの利用履歴を管理するため</li>
-              <li>当社サービスにおけるお客様の行動履歴を分析し、当社サービスの維持改善に役立てるため</li>
-              <li>当社のサービスに関するご案内をするため</li>
-              <li>以上の他、当社サービスの提供、維持、保護及び改善のため</li>
+              <li>当事業者サービスに関する登録の受付、お客様の本人確認、認証のため</li>
+              <li>お客様の当事業者サービスの利用履歴を管理するため</li>
+              <li>当事業者サービスにおけるお客様の行動履歴を分析し、当事業者サービスの維持改善に役立てるため</li>
+              <li>当事業者のサービスに関するご案内をするため</li>
+              <li>以上の他、当事業者サービスの提供、維持、保護及び改善のため</li>
             </ol>
 
             <h3 className="text-lg 3xl:text-xl 4xl:text-2xl font-semibold mt-6 3xl:mt-8 4xl:mt-10 mb-3 3xl:mb-4 4xl:mb-5">お客様対応</h3>
             <ol className="list-decimal ml-6 3xl:ml-8 4xl:ml-10 space-y-1 3xl:space-y-2 4xl:space-y-3" start="6">
               <li>お客様からのお問い合わせに対応するため</li>
-              <li>当社サービスの変更、提供中止、終了、契約解除をご連絡するため</li>
-              <li>当社規約の変更等を通知するため</li>
+              <li>当事業者サービスの変更、提供中止、終了、契約解除をご連絡するため</li>
+              <li>当事業者規約の変更等を通知するため</li>
             </ol>
 
             <h3 className="text-lg 3xl:text-xl 4xl:text-2xl font-semibold mt-6 3xl:mt-8 4xl:mt-10 mb-3 3xl:mb-4 4xl:mb-5">広告・マーケティング</h3>
@@ -114,7 +114,7 @@ const PrivacyPolicy = () => {
 
             <h3 className="text-lg 3xl:text-xl 4xl:text-2xl font-semibold mt-6 3xl:mt-8 4xl:mt-10 mb-3 3xl:mb-4 4xl:mb-5">規約違反への対応</h3>
             <ol className="list-decimal ml-6 3xl:ml-8 4xl:ml-10 space-y-1 3xl:space-y-2 4xl:space-y-3" start="11">
-              <li>当社の規約や法令に違反する行為に対応するため</li>
+              <li>当事業者の規約や法令に違反する行為に対応するため</li>
             </ol>
           </section>
 
@@ -124,7 +124,7 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">安全管理のために講じた措置</h2>
             <p>
-              当社が、お客様から取得した情報に関して安全管理のために講じた措置につきましては、末尾記載のお問い合わせ先にご連絡をいただきましたら、法令の定めに従い個別にご回答させていただきます。
+              当事業者が、お客様から取得した情報に関して安全管理のために講じた措置につきましては、末尾記載のお問い合わせ先にご連絡をいただきましたら、法令の定めに従い個別にご回答させていただきます。
             </p>
           </section>
 
@@ -133,7 +133,7 @@ const PrivacyPolicy = () => {
           {/* 保存期間 */}
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">保存期間</h2>
-            <p>当社は、お客様から取得した個人情報を、以下の期間保存します。</p>
+            <p>当事業者は、お客様から取得した個人情報を、以下の期間保存します。</p>
             <ul className="list-disc ml-6 3xl:ml-8 4xl:ml-10 mt-2 3xl:mt-4 4xl:mt-6 space-y-1 3xl:space-y-2 4xl:space-y-3">
               <li>会員登録情報: 退会後1年間</li>
               <li>お問い合わせ履歴: お問い合わせ対応完了後3年間</li>
@@ -151,12 +151,12 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">第三者提供</h2>
             <p>
-              当社は、お客様から取得する情報のうち、個人データ（個人情報保護法第16条第3項）に該当するものついては、あらかじめお客様の同意を得ずに、第三者（日本国外にある者を含みます）に提供しません。
+              当事業者は、お客様から取得する情報のうち、個人データ（個人情報保護法第16条第3項）に該当するものついては、あらかじめお客様の同意を得ずに、第三者（日本国外にある者を含みます）に提供しません。
             </p>
             <p className="mt-4 3xl:mt-6 4xl:mt-8">ただし、次の場合は除きます。</p>
             <ol className="list-decimal ml-6 3xl:ml-8 4xl:ml-10 mt-2 3xl:mt-4 4xl:mt-6 space-y-1 3xl:space-y-2 4xl:space-y-3">
               <li>個人データの取扱いを外部に委託する場合</li>
-              <li>当社や当社サービスが買収された場合</li>
+              <li>当事業者や当事業者サービスが買収された場合</li>
               <li>事業パートナーと共同利用する場合（具体的な共同利用がある場合は、その内容を別途公表します）</li>
               <li>その他、法律によって合法的に第三者提供が許されている場合</li>
             </ol>
@@ -168,17 +168,17 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">外部委託について</h2>
             <p>
-              当社は、お客様から取得した個人情報の取扱いの全部または一部を外部に委託することがあります。
+              当事業者は、お客様から取得した個人情報の取扱いの全部または一部を外部に委託することがあります。
             </p>
 
             <h3 className="text-lg 3xl:text-xl 4xl:text-2xl font-semibold mt-6 3xl:mt-8 4xl:mt-10 mb-3 3xl:mb-4 4xl:mb-5">委託先について</h3>
             <p>
-              当社は、Google Analytics、Google AdSense等の外部サービスを利用しています。これらにより収集された情報は、当該サービス事業者のサーバーに保存されることがあり、国をまたいで処理される場合があります。
+              当事業者は、Google Analytics、Google AdSense等の外部サービスを利用しています。これらにより収集された情報は、当該サービス事業者のサーバーに保存されることがあり、国をまたいで処理される場合があります。
             </p>
 
             <h3 className="text-lg 3xl:text-xl 4xl:text-2xl font-semibold mt-6 3xl:mt-8 4xl:mt-10 mb-3 3xl:mb-4 4xl:mb-5">委託先の管理</h3>
             <p>
-              当社は、これらの業務を外部に委託する場合、契約により委託先に対する必要かつ適切な監督を行い、個人データの安全管理を担保します。
+              当事業者は、これらの業務を外部に委託する場合、契約により委託先に対する必要かつ適切な監督を行い、個人データの安全管理を担保します。
             </p>
 
             <h3 className="text-lg 3xl:text-xl 4xl:text-2xl font-semibold mt-6 3xl:mt-8 4xl:mt-10 mb-3 3xl:mb-4 4xl:mb-5">委託先情報の開示</h3>
@@ -198,7 +198,7 @@ const PrivacyPolicy = () => {
           {/* 外国にある第三者への提供 */}
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">外国にある第三者への提供</h2>
-            <p>当社は、以下のサービスを利用しており、お客様の情報が日本国外のサーバーに保存される場合があります。</p>
+            <p>当事業者は、以下のサービスを利用しており、お客様の情報が日本国外のサーバーに保存される場合があります。</p>
             <ul className="list-disc ml-6 3xl:ml-8 4xl:ml-10 mt-2 3xl:mt-4 4xl:mt-6 space-y-1 3xl:space-y-2 4xl:space-y-3">
               <li>Google Analytics（米国）</li>
               <li>Google AdSense（米国）</li>
@@ -214,7 +214,7 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">Cookieの使用について</h2>
             <p>
-              当社は、本サービスの利用状況の把握、広告配信、サービス改善のため、Cookieを使用しています。
+              当事業者は、本サービスの利用状況の把握、広告配信、サービス改善のため、Cookieを使用しています。
             </p>
 
             <h3 className="text-lg 3xl:text-xl 4xl:text-2xl font-semibold mt-6 3xl:mt-8 4xl:mt-10 mb-3 3xl:mb-4 4xl:mb-5">Cookieとは</h3>
@@ -244,7 +244,7 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">アクセス解析ツール</h2>
             <p>
-              当社は、お客様のアクセス解析のために、「Google Analytics」を利用しています。
+              当事業者は、お客様のアクセス解析のために、「Google Analytics」を利用しています。
             </p>
             <p className="mt-4 3xl:mt-6 4xl:mt-8">
               Google Analyticsは、トラフィックデータの収集のためにCookieを使用しています。トラフィックデータは匿名で収集されており、個人を特定するものではありません。
@@ -268,10 +268,10 @@ const PrivacyPolicy = () => {
 
             <h3 className="text-lg 3xl:text-xl 4xl:text-2xl font-semibold mb-3 3xl:mb-4 4xl:mb-5">Google AdSense</h3>
             <p>
-              当社は、Google及びそのパートナー（第三者配信事業者）の提供する広告を設置しています。
+              当事業者は、Google及びそのパートナー（第三者配信事業者）の提供する広告を設置しています。
             </p>
             <p className="mt-4 3xl:mt-6 4xl:mt-8">
-              広告配信にはCookieを使用し、お客様が過去に当社ウェブサイトやその他のサイトにアクセスした情報に基づいて広告を配信します。Googleやそのパートナーは、Cookieを使用することにより適切な広告を表示しています。
+              広告配信にはCookieを使用し、お客様が過去に当事業者ウェブサイトやその他のサイトにアクセスした情報に基づいて広告を配信します。Googleやそのパートナーは、Cookieを使用することにより適切な広告を表示しています。
             </p>
             <p className="mt-4 3xl:mt-6 4xl:mt-8">
               <strong>パーソナライズ広告の無効化:</strong><br />
@@ -297,13 +297,13 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">アフィリエイト広告</h2>
             <p>
-              当社は、本サービス内に第三者配信のアフィリエイト広告を掲載することがあります。
+              当事業者は、本サービス内に第三者配信のアフィリエイト広告を掲載することがあります。
             </p>
             <p className="mt-4 3xl:mt-6 4xl:mt-8">
-              アフィリエイト広告では、お客様の当社サービスへのアクセス情報やCookieを利用して、お客様の興味関心に応じた広告を配信する場合があります。
+              アフィリエイト広告では、お客様の当事業者サービスへのアクセス情報やCookieを利用して、お客様の興味関心に応じた広告を配信する場合があります。
             </p>
 
-            <h3 className="text-lg 3xl:text-xl 4xl:text-2xl font-semibold mt-6 3xl:mt-8 4xl:mt-10 mb-3 3xl:mb-4 4xl:mb-5">当社が利用するアフィリエイトサービス</h3>
+            <h3 className="text-lg 3xl:text-xl 4xl:text-2xl font-semibold mt-6 3xl:mt-8 4xl:mt-10 mb-3 3xl:mb-4 4xl:mb-5">当事業者が利用するアフィリエイトサービス</h3>
             <ul className="list-disc ml-6 3xl:ml-8 4xl:ml-10 space-y-1 3xl:space-y-2 4xl:space-y-3">
               <li>
                 <strong>A8.net</strong>（株式会社ファンコミュニケーションズ）<br />
@@ -315,7 +315,7 @@ const PrivacyPolicy = () => {
               </li>
             </ul>
             <p className="mt-4 3xl:mt-6 4xl:mt-8">
-              お客様がアフィリエイト広告をクリックし、外部サイトで商品やサービスを購入された場合、当社は成果報酬を受け取ることがあります。これによりお客様に追加費用が発生することはありません。
+              お客様がアフィリエイト広告をクリックし、外部サイトで商品やサービスを購入された場合、当事業者は成果報酬を受け取ることがあります。これによりお客様に追加費用が発生することはありません。
             </p>
           </section>
 
@@ -325,12 +325,12 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">検索サービスに関する免責事項</h2>
             <p>
-              当社が提供する検索サービスは、インターネット上の情報を検索し、その結果を表示するものです。
+              当事業者が提供する検索サービスは、インターネット上の情報を検索し、その結果を表示するものです。
             </p>
             <ul className="list-disc ml-6 3xl:ml-8 4xl:ml-10 mt-2 3xl:mt-4 4xl:mt-6 space-y-1 3xl:space-y-2 4xl:space-y-3">
               <li>検索結果の正確性、完全性、有用性について保証するものではありません</li>
-              <li>検索結果として表示される外部ウェブサイトの内容について、当社は一切の責任を負いません</li>
-              <li>検索結果から遷移した外部サイトでの取引やトラブルについて、当社は一切の責任を負いません</li>
+              <li>検索結果として表示される外部ウェブサイトの内容について、当事業者は一切の責任を負いません</li>
+              <li>検索結果から遷移した外部サイトでの取引やトラブルについて、当事業者は一切の責任を負いません</li>
             </ul>
           </section>
 
@@ -340,7 +340,7 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">プライバシーポリシーの変更</h2>
             <p>
-              当社は、必要に応じて、このプライバシーポリシーの内容を変更します。この場合、変更後のプライバシーポリシーの施行時期と内容を適切な方法により周知または通知します。
+              当事業者は、必要に応じて、このプライバシーポリシーの内容を変更します。この場合、変更後のプライバシーポリシーの施行時期と内容を適切な方法により周知または通知します。
             </p>
           </section>
 
@@ -350,7 +350,7 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">お問い合わせ・開示等の請求</h2>
             <p>
-              お客様は、当社に対し、個人情報保護法に基づき、保有個人データの開示、訂正、利用停止、削除等を請求することができます。
+              お客様は、当事業者に対し、個人情報保護法に基づき、保有個人データの開示、訂正、利用停止、削除等を請求することができます。
             </p>
 
             <h3 className="text-lg 3xl:text-xl 4xl:text-2xl font-semibold mt-6 3xl:mt-8 4xl:mt-10 mb-3 3xl:mb-4 4xl:mb-5">開示等の請求方法</h3>
@@ -396,7 +396,7 @@ const PrivacyPolicy = () => {
               <p><strong>お支払方法:</strong></p>
               <ul className="list-disc ml-6 3xl:ml-8 4xl:ml-10 mt-2 3xl:mt-4 4xl:mt-6 space-y-1 3xl:space-y-2 4xl:space-y-3">
                 <li>現金書留による送付</li>
-                <li>または、当社から請求書を送付いたしますので、指定の方法でお支払いください</li>
+                <li>または、当事業者から請求書を送付いたしますので、指定の方法でお支払いください</li>
               </ul>
             </div>
 
