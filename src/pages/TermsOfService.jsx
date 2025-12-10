@@ -21,7 +21,7 @@ const TermsOfService = () => {
           {/* 運営者 */}
           <section>
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">運営者</h2>
-            <p>
+          <p>
               本サイト (https://8xaidcircles.com) および当事業者が提供するサービスの運営者は以下のとおりです。
             </p>
             <div className="mt-4 3xl:mt-6 4xl:mt-8 space-y-2 3xl:space-y-3 4xl:space-y-4">
@@ -31,7 +31,7 @@ const TermsOfService = () => {
             </div>
             <p className="mt-4 3xl:mt-6 4xl:mt-8">
               本規約内では、上記運営者を「当事業者」と表記します。
-            </p>
+          </p>
           </section>
 
           <hr className="border-gray-300" />
@@ -417,10 +417,10 @@ const TermsOfService = () => {
           </section>
 
         </div>
-      </div>
+        </div>
       </div>
     </Layout>
   );
 };
 
-export default TermsOfService;
+export default TermsOfService; 

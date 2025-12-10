@@ -31,7 +31,7 @@ const PrivacyPolicy = () => {
             </div>
             <p className="mt-4 3xl:mt-6 4xl:mt-8">
               本プライバシーポリシー内では、上記運営者を「当事業者」と表記します。
-            </p>
+          </p>
           </section>
 
           <hr className="border-gray-300" />
@@ -432,10 +432,10 @@ const PrivacyPolicy = () => {
           </section>
 
         </div>
-      </div>
+        </div>
       </div>
     </Layout>
   );
 };
 
-export default PrivacyPolicy;
+export default PrivacyPolicy; 
