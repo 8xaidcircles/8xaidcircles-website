@@ -38,7 +38,7 @@ const Home = () => {
       <Helmet>
         <html lang="en" />
         <title>8X Aid Circles</title>
-        <meta name="description" content="8X Aid Circles - A Circle of Support, A World of Hope" />
+        <meta name="description" content="8X Aid Circles - Aid Without Borders, Hope Without Limits. We create circles of mutual support to deliver a hopeful future for all. Technology and brand business for social contribution." />
         <link rel="alternate" hreflang="ja" href="https://8xaidcircles.com/" />
         <link rel="alternate" hreflang="en" href="https://8xaidcircles.com/en" />
         <link rel="alternate" hreflang="x-default" href="https://8xaidcircles.com/" />

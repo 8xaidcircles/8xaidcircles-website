@@ -52,6 +52,7 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.5.0",
     "autoprefixer": "^10.4.21",
+    "png-to-ico": "^3.0.1",
     "postcss": "^8.5.3",
     "sharp": "^0.34.5",
     "stylelint": "^16.19.1",
