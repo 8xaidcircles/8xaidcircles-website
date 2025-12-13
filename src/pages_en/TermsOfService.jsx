@@ -20,7 +20,7 @@ const TermsOfService = () => {
 
           {/* General Provisions */}
           <section>
-            <p>
+          <p>
               These Terms of Use (hereinafter referred to as the "Terms") set forth the terms of use of the Services (which include this website and do not specifically distinguish the Services and this website in the following terms and conditions). The Terms apply to all users of the Services (the "User(s)").
             </p>
           </section>
@@ -185,7 +185,7 @@ const TermsOfService = () => {
             <h2 className="text-xl 3xl:text-2xl 4xl:text-3xl 5xl:text-4xl font-semibold mb-4 3xl:mb-6 4xl:mb-8">Disclaimer</h2>
             <p>
               THE COMPANY SHALL NOT BE RESPONSIBLE OR LIABLE FOR ANY DAMAGES INCURRED BY THE USERS IN CONNECTION WITH THE SERVICES; provided, however, that this disclaimer will not apply if the agreement between the Company and the User regarding the Services (including the Terms) constitutes a consumer contract under Consumer Contract Act. Even if the agreement between the Company and the User constitutes a consumer contract, the Company shall not be liable for any damage arising out of special circumstances (including the cases where the Company or the User have foreseen or could foresee the occurrence of such damage) incurred by the Users due to the Company's negligence (excluding gross negligence). The Company assumes no responsibility for any trouble that may arise between the User and any other User or a third party. The Company shall not be liable for any damages incurred by the User in connection with the Services in excess of usage fees paid by such User to the Company during the month in which such damages occur.
-            </p>
+          </p>
           </section>
 
           <hr className="border-gray-300" />
