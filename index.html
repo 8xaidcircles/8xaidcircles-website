@@ -35,12 +35,35 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "8X Aid Circles",
-        "url": "https://8xaidcircles.com",
-        "logo": "https://8xaidcircles.com/logo512.png",
-        "image": "https://8xaidcircles.com/logo512.png",
-        "description": "8X Aid Circles - Aid Without Borders, Hope Without Limits. 助け合いの輪を創り、すべての存在に希望ある未来を届けます。"
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://8xaidcircles.com/#organization",
+            "name": "8X Aid Circles",
+            "url": "https://8xaidcircles.com",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://8xaidcircles.com/#logo",
+              "url": "https://8xaidcircles.com/logo512.png",
+              "contentUrl": "https://8xaidcircles.com/logo512.png",
+              "caption": "8X Aid Circles",
+              "width": 512,
+              "height": 512
+            },
+            "image": "https://8xaidcircles.com/logo512.png",
+            "description": "8X Aid Circles - Aid Without Borders, Hope Without Limits. 助け合いの輪を創り、すべての存在に希望ある未来を届けます。"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://8xaidcircles.com/#website",
+            "url": "https://8xaidcircles.com",
+            "name": "8X Aid Circles",
+            "publisher": {
+              "@id": "https://8xaidcircles.com/#organization"
+            },
+            "inLanguage": "ja"
+          }
+        ]
       }
     </script>
   </head>
