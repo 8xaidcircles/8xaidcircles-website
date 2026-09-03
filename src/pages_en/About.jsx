@@ -9,6 +9,7 @@ const About = () => {
   const titleRef2 = useIntersectionObserver();
   const titleRef3 = useIntersectionObserver();
   const titleRef4 = useIntersectionObserver();
+  const titleRef5 = useIntersectionObserver();
   const subtitleRef = useIntersectionObserver();
   const subtitleRef2 = useIntersectionObserver();
   const subtitleRef3 = useIntersectionObserver();
@@ -26,6 +27,9 @@ const About = () => {
   const textRef8 = useIntersectionObserver();
   const textRef9 = useIntersectionObserver();
   const textRef10 = useIntersectionObserver();
+  const textRef11 = useIntersectionObserver();
+  const textRef12 = useIntersectionObserver();
+  const textRef13 = useIntersectionObserver();
 
   return (
     <Layout>
@@ -63,7 +67,7 @@ const About = () => {
           </div>
         </section>
 
-        {/* Section 2 */}
+        {/* Section 2 - Mission */}
         <section className="min-h-screen flex flex-col justify-center items-center py-32 3xl:py-40 4xl:py-48 px-4 3xl:px-8 4xl:px-12 5xl:px-16">
           <div className="w-full max-w-12xl mx-auto">
             <div className="w-full text-center mb-4 3xl:mb-6 4xl:mb-8">
@@ -100,20 +104,23 @@ const About = () => {
                   "
                   ref={subtitleRef}
                 >  
-                   One Health —<br />Contributing to Life
+                   Technology for Life —<br />Unlocking Possibilities
                 </h3>
                 <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef1}>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                  Guided by the belief in the fundamental equality of all life,
+                  Harnessing the power of technology
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                  the power of technology, we create sustainable support structures
+                  to expand human potential
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                   so that everyone — regardless of their circumstances
+                  and bring new possibilities
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                   — can live with dignity and realize their potential.
+                  to places where support is difficult to reach.
+                  </p>
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6">
+                  Creating a better future through creation.
                   </p>
                 </div>
               </div>
@@ -121,7 +128,7 @@ const About = () => {
           </div>
         </section>
 
-        {/* Section 3 */}
+        {/* Section 3 - Vision */}
         <section className="min-h-screen flex flex-col justify-center items-center py-32 3xl:py-40 4xl:py-48 px-4 3xl:px-8 4xl:px-12 5xl:px-16">
           <div className="w-full max-w-12xl mx-auto">
             <div className="w-full text-center mb-4 3xl:mb-6 4xl:mb-8">
@@ -156,13 +163,19 @@ const About = () => {
                 </h3>
                 <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef2}>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                  To build a world where life knows no boundaries.
+                  Creating a world where life knows no borders,
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                  A future where everyone can freely create their own path in life.
+                  a future where everyone can shape their own life freely,
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                  To foster Aid Circles that transcend nations, positions, and circumstances.
+                  a society where people, animals, and nature coexist,
+                  </p>
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6">
+                  where we support one another beyond borders and circumstances,
+                  </p>
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6">
+                  and connect circles of mutual support.
                   </p>
                 </div>
               </div>
@@ -170,7 +183,59 @@ const About = () => {
           </div>
         </section>
 
-        {/* Section 4 */}
+        {/* Section 4 - Approach */}
+        <section className="min-h-screen flex flex-col justify-center items-center py-32 3xl:py-40 4xl:py-48 px-4 3xl:px-8 4xl:px-12 5xl:px-16">
+          <div className="w-full max-w-12xl mx-auto">
+            <div className="w-full text-center mb-4 3xl:mb-6 4xl:mb-8">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 3xl:text-8xl 4xl:text-9xl 5xl:text-10xl font-semibold tracking-wider mr-4 opacity-0" ref={titleRef5}>
+              <span className="
+              bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)] 
+              bg-[length:200%_100%] 
+              bg-clip-text text-transparent 
+              animate-[AnimationTitle_5s_ease_infinite]">Approach</span>
+              </h2>
+            </div>
+            <div className="w-full flex flex-col items-center">
+              <div className="max-w-8xl w-full text-center mx-auto">
+                <h3
+                  className="
+                    text-xl
+                    sm:text-2xl
+                    md:text-3xl
+                    lg:text-4xl
+                    xl:text-5xl
+                    3xl:text-6xl
+                    4xl:text-7xl
+                    5xl:text-8xl
+                    font-bold
+                    mb-8 md:mb-10 lg:mb-12 xl:mb-14 2xl:mb-16 3xl:mb-16 4xl:mb-20
+                    leading-tight
+                    opacity-0
+                  "
+                  ref={subtitleRef7}
+                >
+                  One Health
+                </h3>
+                <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef12}>
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6">
+                      Seeing humans, animals, and nature
+                  </p>
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6">
+                      as interconnected forms of life
+                  </p>
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6 mt-6 3xl:mt-8 4xl:mt-10">
+                      Working together to create
+                  </p>
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6">
+                      a better future
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Section 5 - Values */}
         <section className="min-h-screen flex flex-col justify-center items-center py-32 3xl:py-40 4xl:py-48 px-4 3xl:px-8 4xl:px-12 5xl:px-16">
           <div className="w-full max-w-10xl mx-auto">
             <div className="w-full text-center mb-4 3xl:mb-6 4xl:mb-8">
@@ -179,7 +244,7 @@ const About = () => {
               bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)] 
               bg-[length:200%_100%] 
               bg-clip-text text-transparent 
-              animate-[AnimationTitle_5s_ease_infinite]">Value</span>
+              animate-[AnimationTitle_5s_ease_infinite]">Values</span>
               </h2>
             </div>
             <div className="w-full flex flex-col items-center">
@@ -205,10 +270,12 @@ const About = () => {
                     Equality at the Core of Life
                   </h3>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef3}>
-                    Every life is equally precious, and each person is irreplaceable.
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">Every life is equally precious,</p>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">and every individual is irreplaceable.</p>
                   </div>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef4}>
-                    We prioritize actions that put life first above all else.
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">We place the value of life</p>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">at the heart of everything we do.</p>
                   </div>
                 </div>
 
@@ -230,25 +297,20 @@ const About = () => {
                   "
                   ref={subtitleRef4}
                 >
-                  Aid for One — Circulating Support
+                  Aid for One — Creating a Cycle of Support
                 </h3>
                 <div
                   className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] text-center mt-0 opacity-0"
                   ref={textRef5}
                 >
-                  One creation generates one act of support.
+                  One creation creates one act of support.
                 </div>
                 <div
                   className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] text-center mt-1 opacity-0"
                   ref={textRef6}
                 >
-                  We value sustainable systems that integrate business and aid
-                </div>
-                <div
-                  className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] text-center mt-1 opacity-0"
-                  ref={textRef7}
-                >
-                  so that support does not end as a one-time effort.
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6">Connecting business with Aid</p>
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6">to create a sustainable cycle of support.</p>
                 </div>
                 </div>
 
@@ -270,14 +332,20 @@ const About = () => {
                   "
                   ref={subtitleRef5}
                 >
-                    Shining Light on Overlooked Areas
+                    Bringing Light to Overlooked Areas
                   </h3>
+                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef7}>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">We focus on areas</p>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">that receive little attention</p>
+                  </div>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef8}>
-                  We focus on fields that receive little attention<br />and on people or issues where support is hardest to reach.
-                </div>
-                <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef9}>
-                  Using technology, we create new forms of aid<br />that amplify the power of goodwill.
-                </div>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">and on those</p>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">who are difficult to reach with support.</p>
+                  </div>
+                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef9}>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">Using technology</p>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">to amplify the power of goodwill.</p>
+                  </div>
                 </div>
 
                 <div className="mb-8 3xl:mb-12 4xl:mb-16">
@@ -298,10 +366,17 @@ const About = () => {
                   "
                   ref={subtitleRef6}
                 >
-                    Challenging Beyond Boundaries
+                    Beyond Boundaries
                   </h3>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef10}>
-                   We act in the spirit of "Aid Without Borders, Hope Without Limits"<br />— transcending borders and limitations.
+                    Going beyond borders, circumstances, and disciplines
+                  </div>
+                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef11}>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">Breaking free from existing frameworks</p>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">to create new forms of support.</p>
+                  </div>
+                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center mt-6 3xl:mt-8 4xl:mt-10" ref={textRef13}>
+                    Aid Without Borders, Hope Without Limits.
                   </div>
                 </div>
               </div>
@@ -314,4 +389,3 @@ const About = () => {
 };
 
 export default About;
-

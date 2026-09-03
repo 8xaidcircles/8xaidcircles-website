@@ -108,27 +108,6 @@ const Home = () => {
                 Hope Without Limits.
               </span>
             </h1>
-         
-            <p
-              ref={subtitleRef}
-              className="
-                text-base
-                sm:text-lg
-                md:text-xl
-                lg:text-xl
-                xl:text-2xl
-                2xl:text-3xl
-                3xl:text-4xl
-                4xl:text-5xl
-                5xl:text-6xl
-                text-gray-700
-                mb-8 md:mb-10 lg:mb-12 xl:mb-14 2xl:mb-16 3xl:mb-16 4xl:mb-20
-                leading-relaxed
-                opacity-0
-              "
-            >
-              8X Aid Circles は 「助け合いの輪（Aid Circles）」 を創ります
-            </p>
             </div>
           </div>
         </section>
@@ -176,51 +155,58 @@ const Home = () => {
                 >
                   <div className="mb-2">
                     <AnimatedText 
-                      text="One Health — 生命に貢献する" 
+                      text="Technology for Life — 可能性をひらく" 
                       isVisible={philosophyTextVisible}
                       delay={0}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="人間・動物・自然を生命系として捉え" 
+                      text="テクノロジーの力で人々の可能性を広げ" 
                       isVisible={philosophyTextVisible}
                       delay={800}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="科学・テクノロジー・共感を通じて" 
+                      text="支援が届きにくい場所に新しい選択肢を届ける" 
                       isVisible={philosophyTextVisible}
                       delay={1600}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="共に生きるすべての存在に希望ある未来を届けること" 
+                      text="人間・動物・自然が共に生きる未来を目指し" 
                       isVisible={philosophyTextVisible}
                       delay={2400}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="どんな立場にあっても、未来を切り拓く力は誰にでもある" 
+                      text="創造の力で、新たな可能性を届ける" 
                       isVisible={philosophyTextVisible}
                       delay={3200}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="どんな状況でも、人生は書き換えることができる——" 
+                      text="どんな立場にあっても、未来を切り拓く力は誰にでもある" 
                       isVisible={philosophyTextVisible}
                       delay={4000}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="これが8X Aid Circlesの信念であり、目指すVisionです" 
+                      text="どんな状況でも、人生は書き換えることができる——" 
                       isVisible={philosophyTextVisible}
                       delay={4800}
+                    />
+                  </div>
+                  <div className="mb-2">
+                    <AnimatedText 
+                      text="これが8X Aid Circlesの信念であり、目指す未来です。" 
+                      isVisible={philosophyTextVisible}
+                      delay={5600}
                     />
                   </div>
                 </h2>

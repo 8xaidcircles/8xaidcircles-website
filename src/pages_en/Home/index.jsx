@@ -108,27 +108,6 @@ const Home = () => {
                 Hope Without Limits.
               </span>
             </h1>
-         
-            <p
-              ref={subtitleRef}
-              className="
-                text-base
-                sm:text-lg
-                md:text-xl
-                lg:text-xl
-                xl:text-2xl
-                2xl:text-3xl
-                3xl:text-4xl
-                4xl:text-5xl
-                5xl:text-6xl
-                text-gray-700
-                mb-8 md:mb-10 lg:mb-12 xl:mb-14 2xl:mb-16 3xl:mb-16 4xl:mb-20
-                leading-relaxed
-                opacity-0
-              "
-            >
-              8X Aid Circles creates 'Circles of Support (Aid Circles)'
-            </p>
             </div>
           </div>
         </section>
@@ -176,58 +155,58 @@ const Home = () => {
                 >
                   <div className="mb-2">
                     <AnimatedText 
-                      text="One Health — Contributing to All Life" 
+                      text="Technology for Life — Unlocking Potential" 
                       isVisible={philosophyTextVisible}
                       delay={0}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="We view humans, animals, and nature as interconnected life systems." 
+                      text="Harnessing the power of technology to expand human potential," 
                       isVisible={philosophyTextVisible}
                       delay={800}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="Through science, technology, and empathy," 
+                      text="we bring new possibilities to places where support is difficult to reach." 
                       isVisible={philosophyTextVisible}
                       delay={1600}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="we bring a hopeful future to the lives we share this world with." 
+                      text="We envision a future where people, animals, and nature coexist," 
                       isVisible={philosophyTextVisible}
-                      delay={2600}
+                      delay={2400}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="Regardless of one's circumstances," 
+                      text="delivering new possibilities through the power of creation." 
+                      isVisible={philosophyTextVisible}
+                      delay={3200}
+                    />
+                  </div>
+                  <div className="mb-2">
+                    <AnimatedText 
+                      text="No matter where we stand, everyone has the power to shape their future." 
                       isVisible={philosophyTextVisible}
                       delay={4000}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="everyone has the power to shape their future." 
+                      text="No matter the circumstances, life can always be rewritten—" 
                       isVisible={philosophyTextVisible}
-                      delay={4400}
+                      delay={4800}
                     />
                   </div>
                   <div className="mb-2">
                     <AnimatedText 
-                      text="No matter the situation, a life can be rewritten—" 
+                      text="this is the belief of 8X Aid Circles and the future we strive to create." 
                       isVisible={philosophyTextVisible}
-                      delay={5100}
-                    />
-                  </div>
-                  <div className="mb-2">
-                    <AnimatedText 
-                      text="this is 8X Aid Circles' belief and vision." 
-                      isVisible={philosophyTextVisible}
-                      delay={5500}
+                      delay={5600}
                     />
                   </div>
                 </h2>

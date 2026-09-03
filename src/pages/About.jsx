@@ -9,6 +9,7 @@ const About = () => {
   const titleRef2 = useIntersectionObserver();
   const titleRef3 = useIntersectionObserver();
   const titleRef4 = useIntersectionObserver();
+  const titleRef5 = useIntersectionObserver();
   const subtitleRef = useIntersectionObserver();
   const subtitleRef2 = useIntersectionObserver();
   const subtitleRef3 = useIntersectionObserver();
@@ -16,9 +17,6 @@ const About = () => {
   const subtitleRef5 = useIntersectionObserver();
   const subtitleRef6 = useIntersectionObserver();
   const subtitleRef7 = useIntersectionObserver();
-  const subtitleRef8 = useIntersectionObserver();
-  const subtitleRef9 = useIntersectionObserver();
-  const subtitleRef10 = useIntersectionObserver();
   const textRef1 = useIntersectionObserver();
   const textRef2 = useIntersectionObserver();
   const textRef3 = useIntersectionObserver();
@@ -27,8 +25,10 @@ const About = () => {
   const textRef6 = useIntersectionObserver();
   const textRef7 = useIntersectionObserver();
   const textRef8 = useIntersectionObserver();
-  const textRef9 = useIntersectionObserver(); 
-  const textRef10 = useIntersectionObserver();  
+  const textRef9 = useIntersectionObserver();
+  const textRef10 = useIntersectionObserver();
+  const textRef11 = useIntersectionObserver();
+  const textRef12 = useIntersectionObserver();
   return (
     <Layout>
       <Helmet>
@@ -65,7 +65,7 @@ const About = () => {
           </div>
         </section>
 
-        {/* Section 2 */}
+        {/* Section 2 - Mission */}
         <section className="min-h-screen flex flex-col justify-center items-center py-32 3xl:py-40 4xl:py-48 px-4 3xl:px-8 4xl:px-12 5xl:px-16">
           <div className="w-full max-w-12xl mx-auto">
             <div className="w-full text-center mb-4 3xl:mb-6 4xl:mb-8">
@@ -100,23 +100,23 @@ const About = () => {
                     leading-tight
                     opacity-0
                   " ref={subtitleRef}>
-                One Health — <br />生命に貢献する
+                Technology for Life — <br />可能性をひらく
                 </h3>
                 <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef1}>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                  命のもとの平等という信念のもと
+                  テクノロジーの力で
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                  境遇に関わらず誰もが可能性を持ち
+                  人々の可能性を広げ
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                   尊厳を持って生きられるよう
+                  支援が届きにくい場所に
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                    テクノロジーの力で
+                  新しい選択肢を届ける
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                    持続可能な支援の仕組みを創る
+                  創造を、より良い未来へ
                   </p>
                 </div>
               </div>
@@ -124,7 +124,7 @@ const About = () => {
           </div>
         </section>
 
-        {/* Section 3 */}
+        {/* Section 3 - Vision */}
         <section className="min-h-screen flex flex-col justify-center items-center py-32 3xl:py-40 4xl:py-48 px-4 3xl:px-8 4xl:px-12 5xl:px-16">
           <div className="w-full max-w-12xl mx-auto">
             <div className="w-full text-center mb-4 3xl:mb-6 4xl:mb-8">
@@ -171,7 +171,7 @@ const About = () => {
                       国や立場を越えて支え合う
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                      助け合いの輪を広げる
+                      助け合いの輪をつなぐ
                   </p>
                 </div>
               </div>
@@ -179,7 +179,56 @@ const About = () => {
           </div>
         </section>
 
-        {/* Section 4 */}
+        {/* Section 4 - Approach */}
+        <section className="min-h-screen flex flex-col justify-center items-center py-32 3xl:py-40 4xl:py-48 px-4 3xl:px-8 4xl:px-12 5xl:px-16">
+          <div className="w-full max-w-12xl mx-auto">
+            <div className="w-full text-center mb-4 3xl:mb-6 4xl:mb-8">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 3xl:text-8xl 4xl:text-9xl 5xl:text-10xl font-semibold tracking-wider mr-4 opacity-0" ref={titleRef5}>
+              <span className="
+              bg-[linear-gradient(to_right,#833ab4,#fd1d1d,#fcb045)] 
+              bg-[length:200%_100%] 
+              bg-clip-text text-transparent 
+              animate-[AnimationTitle_5s_ease_infinite]">Approach</span>
+              </h2>
+            </div>
+            <div className="w-full flex flex-col items-center">
+              <div className="max-w-8xl w-full text-center mx-auto">
+                <h3
+                  className="
+                    text-xl
+                    sm:text-2xl
+                    md:text-3xl
+                    lg:text-4xl
+                    xl:text-5xl
+                    3xl:text-6xl
+                    4xl:text-7xl
+                    5xl:text-8xl
+                    font-bold
+                    mb-8 md:mb-10 lg:mb-12 xl:mb-14 2xl:mb-16 3xl:mb-16 4xl:mb-20
+                    leading-tight
+                    opacity-0
+                  "
+                  ref={subtitleRef7}
+                >
+                  One Health
+                </h3>
+                <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef12}>
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6">
+                      人間・動物・自然を
+                  </p>
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6">
+                      つながりあう生命として捉え
+                  </p>
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6">
+                      より良い未来を共に創る
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Section 5 - Value */}
         <section className="min-h-screen flex flex-col justify-center items-center py-32 3xl:py-40 4xl:py-48 px-4 3xl:px-8 4xl:px-12 5xl:px-16">
           <div className="w-full max-w-10xl mx-auto">
             <div className="w-full text-center mb-4 3xl:mb-6 4xl:mb-8">
@@ -198,10 +247,12 @@ const About = () => {
                     命のもとの平等
                   </h3>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef3}>
-                   すべての命は等しく尊く、誰もがかけがえのない存在である
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">すべての命は等しく尊く、</p>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">誰もがかけがえのない存在である</p>
                   </div>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef4}>
-                   命を基準とした行動を何よりも優先する
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">命を基準とした行動を</p>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">何よりも優先する</p>
                   </div>
                 </div>
 
@@ -223,19 +274,20 @@ const About = () => {
                   "
                   ref={subtitleRef4}
                 >
-                  Aid for One —循環する支援
+                  Aid for One — 循環する支援
                 </h3>
                 <div
                   className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] text-center mt-0 opacity-0"
                   ref={textRef5}
                 >
-                  1つの創作が、1つの支援を生む
+                  1つの創造が、1つの支援を生む
                 </div>
                 <div
                   className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] text-center mt-1 opacity-0"
                   ref={textRef6}
                 >
-                  支援が一過性で終わらないよう事業と支援を両立させる持続可能な仕組みを大切にする
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6">事業と支援をつなぎ</p>
+                  <p className="mb-2 3xl:mb-4 4xl:mb-6">持続可能なAidの循環をつくる</p>
                 </div>
                 </div>
 
@@ -244,10 +296,12 @@ const About = () => {
                     見過ごされた領域にこそ、光を
                   </h3>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef7}>
-                    誰も目を向けない領域、届きにくい支援にこそ力を注ぐ
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">誰も目を向けない領域</p>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">届きにくい支援にこそ力を注ぐ</p>
                   </div>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef8}>
-                    テクノロジーを活用し善意の力を拡張する新しい支援のかたちを実現する
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">テクノロジーで</p>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">善意の力を拡張する</p>
                   </div>
                 </div>
 
@@ -256,7 +310,14 @@ const About = () => {
                     枠を越えた挑戦
                   </h3>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef9}>
-                    国境や立場を越え「Aid without border, Hope without limits.」の精神で行動する
+                    国境、立場、領域を越える
+                  </div>
+                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef10}>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">既存の枠にとらわれず</p>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">新しい支援のかたちを創る</p>
+                  </div>
+                  <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center mt-6 3xl:mt-8 4xl:mt-10" ref={textRef11}>
+                    Aid Without Borders, Hope Without Limits.
                   </div>
                 </div>
               </div>
