@@ -169,7 +169,7 @@ const About = () => {
                   a future where everyone can shape their own life freely,
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                  a society where people, animals, and nature coexist,
+                  a world where people, animals, and nature coexist,
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
                   where we support one another beyond borders and circumstances,

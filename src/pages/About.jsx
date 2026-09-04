@@ -165,7 +165,7 @@ const About = () => {
                       誰もが人生を自由に創造できる未来
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
-                      人間・動物・自然が共に生きる社会
+                      人間・動物・自然が共に生きる世界
                   </p>
                   <p className="mb-2 3xl:mb-4 4xl:mb-6">
                       国や立場を越えて支え合う
@@ -247,7 +247,7 @@ const About = () => {
                     命のもとの平等
                   </h3>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef3}>
-                    <p className="mb-2 3xl:mb-4 4xl:mb-6">すべての命は等しく尊く、</p>
+                    <p className="mb-2 3xl:mb-4 4xl:mb-6">すべての命は等しく尊く</p>
                     <p className="mb-2 3xl:mb-4 4xl:mb-6">誰もがかけがえのない存在である</p>
                   </div>
                   <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 3xl:text-4xl 4xl:text-5xl 5xl:text-6xl leading-relaxed text-[#1b1b1b] opacity-0 text-center" ref={textRef4}>
