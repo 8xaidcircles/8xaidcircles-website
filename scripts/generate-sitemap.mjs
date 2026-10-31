@@ -13,6 +13,7 @@ const links = [
   { url: '/news', changefreq: 'weekly', priority: 0.8 },
   { url: '/privacy-policy', changefreq: 'yearly', priority: 0.5 },
   { url: '/terms-of-service', changefreq: 'yearly', priority: 0.5 },
+  { url: '/operator', changefreq: 'yearly', priority: 0.5 },
   
   // English pages
   { url: '/en', changefreq: 'monthly', priority: 1.0 },
@@ -22,6 +23,7 @@ const links = [
   { url: '/en/news', changefreq: 'weekly', priority: 0.8 },
   { url: '/en/privacy-policy', changefreq: 'yearly', priority: 0.5 },
   { url: '/en/terms-of-service', changefreq: 'yearly', priority: 0.5 },
+  { url: '/en/operator', changefreq: 'yearly', priority: 0.5 },
 ];
 
 const sitemap = new SitemapStream({ hostname });

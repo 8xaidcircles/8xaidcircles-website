@@ -36,6 +36,12 @@ const Footer = () => (
             リンク
           </p>
           <Link
+            to="/operator"
+            className="text-gray-600 hover:text-purple-600 text-xs sm:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-base 4xl:text-lg 5xl:text-xl"
+          >
+            運営者
+          </Link>
+          <Link
             to="/privacy-policy"
             className="text-gray-600 hover:text-purple-600 text-xs sm:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-base 4xl:text-lg 5xl:text-xl"
           >

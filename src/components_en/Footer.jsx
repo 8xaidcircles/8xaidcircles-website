@@ -37,6 +37,12 @@ const Footer = () => (
             Links
           </p>
           <Link
+            to="/en/operator"
+            className="text-gray-600 hover:text-purple-600 text-xs sm:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-base 4xl:text-lg 5xl:text-xl"
+          >
+            Operator
+          </Link>
+          <Link
             to="/en/privacy-policy"
             className="text-gray-600 hover:text-purple-600 text-xs sm:text-xs lg:text-sm xl:text-base 2xl:text-base 3xl:text-base 4xl:text-lg 5xl:text-xl"
           >

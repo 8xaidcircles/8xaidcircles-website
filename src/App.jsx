@@ -10,6 +10,7 @@ import About from "./pages/About";
 import News from "./pages/News";
 import NewsDetail from "./pages/NewsDetail";
 import Brand from "./pages/Brand";
+import Operator from "./pages/Operator";
 
 // English pages
 import HomeEn from './pages_en/Home';
@@ -20,6 +21,7 @@ import AboutEn from "./pages_en/About";
 import NewsEn from "./pages_en/News";
 import NewsDetailEn from "./pages_en/NewsDetail";
 import BrandEn from "./pages_en/Brand";
+import OperatorEn from "./pages_en/Operator";
 
 import './index.css';
 
@@ -50,6 +52,7 @@ function App() {
           <Route path="/news" element={<News />} />
           <Route path="/news/:id" element={<NewsDetail />} />
           <Route path="/brand" element={<Brand />} />
+          <Route path="/operator" element={<Operator />} />
 
           {/* English Routes */}
           <Route path="/en" element={<HomeEn />} />
@@ -60,6 +63,7 @@ function App() {
           <Route path="/en/news" element={<NewsEn />} />
           <Route path="/en/news/:id" element={<NewsDetailEn />} />
           <Route path="/en/brand" element={<BrandEn />} />
+          <Route path="/en/operator" element={<OperatorEn />} />
         </Routes>
       </main>
     </div>
